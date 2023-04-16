@@ -1,0 +1,31 @@
+﻿Build started 2017-03-07 13:54:04.
+     1>Project "E:\projekty\DataBaseArticleMenager\dll\attr_kon\attr_kon\attr_kon.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\attr_kon.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\attr_kon.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt attr_kon.cpp
+         attr_kon.cpp
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(17): warning C4091: 'typedef ' : ignored on left of 'COUNT' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(22): warning C4091: 'typedef ' : ignored on left of 'GR_T' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(27): warning C4091: 'typedef ' : ignored on left of 'N_VAT' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(33): warning C4091: 'typedef ' : ignored on left of 'ST_VAT' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(39): warning C4091: 'typedef ' : ignored on left of 'WALUTA' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(45): warning C4091: 'typedef ' : ignored on left of 'JM' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(51): warning C4091: 'typedef ' : ignored on left of 'FORM_ZAP' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\attr_kon\attr_kon\attr_kon.h(131): warning C4305: 'initializing' : truncation from 'int' to 'bool'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projekty\DataBaseArticleMenager\dll\attr_kon\Debug\attr_kon.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\attr_kon.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\projekty\DataBaseArticleMenager\dll\attr_kon\Debug\attr_kon.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projekty\DataBaseArticleMenager\dll\attr_kon\Debug\attr_kon.lib" /MACHINE:X86 /DLL Debug\attr_kon.obj
+            Creating library E:\projekty\DataBaseArticleMenager\dll\attr_kon\Debug\attr_kon.lib and object E:\projekty\DataBaseArticleMenager\dll\attr_kon\Debug\attr_kon.exp
+         attr_kon.vcxproj -> E:\projekty\DataBaseArticleMenager\dll\attr_kon\Debug\attr_kon.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\projekty\DataBaseArticleMenager\dll\attr_kon\Debug\attr_kon.dll;#2" /manifest Debug\attr_kon.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\attr_kon.unsuccessfulbuild".
+         Touching "Debug\attr_kon.lastbuildstate".
+     1>Done Building Project "E:\projekty\DataBaseArticleMenager\dll\attr_kon\attr_kon\attr_kon.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.64
