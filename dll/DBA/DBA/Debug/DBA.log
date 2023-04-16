@@ -1,0 +1,25 @@
+﻿Build started 2017-04-09 22:41:01.
+     1>Project "E:\projekty\DataBaseArticleMenager\dll\DBA\DBA\DBA.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\DBA.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\DBA.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _WINDLL /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DBA.cpp
+         DBA.cpp
+     1>e:\projekty\databasearticlemenager\dll\dba\dba\dba.h(11): warning C4091: 'typedef ' : ignored on left of 'Header_A' when no variable is declared
+     1>e:\projekty\databasearticlemenager\dll\dba\dba\dba.h(38): warning C4091: 'typedef ' : ignored on left of 'Artykuly' when no variable is declared
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\projekty\DataBaseArticleMenager\dll\DBA\Debug\DBA.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\DBA.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\projekty\DataBaseArticleMenager\dll\DBA\Debug\DBA.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\projekty\DataBaseArticleMenager\dll\DBA\Debug\DBA.lib" /MACHINE:X86 /DLL Debug\DBA.obj
+            Creating library E:\projekty\DataBaseArticleMenager\dll\DBA\Debug\DBA.lib and object E:\projekty\DataBaseArticleMenager\dll\DBA\Debug\DBA.exp
+         DBA.vcxproj -> E:\projekty\DataBaseArticleMenager\dll\DBA\Debug\DBA.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\projekty\DataBaseArticleMenager\dll\DBA\Debug\DBA.dll;#2" /manifest Debug\DBA.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\DBA.unsuccessfulbuild".
+         Touching "Debug\DBA.lastbuildstate".
+     1>Done Building Project "E:\projekty\DataBaseArticleMenager\dll\DBA\DBA\DBA.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.66
