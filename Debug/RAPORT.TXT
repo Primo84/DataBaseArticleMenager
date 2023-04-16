@@ -1,0 +1,11 @@
+#1	COM15:57600:MUX0:1	1	2022.12.21	18:32	ONrKasy	WIN 10.21.2016	Config/pin.in	Config/pin.out
+#62	; nie mozna otworzyc portu szeregowego
+#Jota (identyfikator z pliku KONFIG.TXT)
+$0
+$0
+$0
+$3
+$0
+$00000	00000
+$3	0	#
+$0000
