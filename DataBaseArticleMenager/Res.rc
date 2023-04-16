@@ -1,0 +1,1689 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+/////////////////////////////////////////////////////////////////////////////
+// Polish (Poland) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_PLK)
+LANGUAGE LANG_POLISH, SUBLANG_DEFAULT
+#pragma code_page(1250)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_1                   BITMAP                  "ikony//Q.bmp"
+IDB_2                   BITMAP                  "ikony//D.bmp"
+IDB_3                   BITMAP                  "ikony//Do.bmp"
+IDB_4                   BITMAP                  "ikony//U.bmp"
+IDB_5                   BITMAP                  "ikony//Ed.bmp"
+IDB_6                   BITMAP                  "ikony//Do.bmp"
+IDB_7                   BITMAP                  "ikony//FW.bmp"
+IDB_8                   BITMAP                  "ikony//Z.bmp"
+IDB_9                   BITMAP                  "ikony//PT.bmp"
+IDB_10                  BITMAP                  "ikony//FZ.bmp"
+IDB_11                  BITMAP                  "ikony//add.bmp"
+IDB_12                  BITMAP                  "ikony//conf.bmp"
+IDB_13                  BITMAP                  "ikony//error.bmp"
+IDB_14                  BITMAP                  "ikony//ok.bmp"
+IDB_15                  BITMAP                  "ikony//cancel.bmp"
+IDB_16                  BITMAP                  "ikony//query.bmp"
+IDB_17                  BITMAP                  "ikony//msg.bmp"
+IDB_18                  BITMAP                  "ikony//root.bmp"
+IDB_19                  BITMAP                  "ikony//rap.bmp"
+IDB_20                  BITMAP                  "ikony//k_cfg.bmp"
+IDB_21                  BITMAP                  "ikony//sale.bmp"
+IDB_22                  BITMAP                  "ikony//kas.bmp"
+IDB_23                  BITMAP                  "ikony//spr_cen.bmp"
+IDB_24                  BITMAP                  "ikony//czyt_wsz_tow.bmp"
+IDB_25                  BITMAP                  "ikony//zap_full.bmp"
+IDB_26                  BITMAP                  "ikony//t_rd.bmp"
+IDB_27                  BITMAP                  "ikony//t_del.bmp"
+IDB_28                  BITMAP                  "ikony//zap_wiaz.bmp"
+IDB_29                  BITMAP                  "ikony//kas_w_tow.bmp"
+IDB_30                  BITMAP                  "ikony//naj_num_tow.bmp"
+IDB_31                  BITMAP                  "ikony//il_tow.bmp"
+IDB_32                  BITMAP                  "ikony//dr_rap_zm.bmp"
+IDB_33                  BITMAP                  "ikony//dr_rap.bmp"
+IDB_34                  BITMAP                  "ikony//num.bmp"
+IDB_35                  BITMAP                  "ikony//num1.bmp"
+IDB_36                  BITMAP                  "ikony//get_b.bmp"
+IDB_37                  BITMAP                  "ikony//set_b.bmp"
+IDB_38                  BITMAP                  "ikony//jedn_o.bmp"
+IDB_39                  BITMAP                  "ikony//jedn_z.bmp"
+IDB_40                  BITMAP                  "ikony//gr_o.bmp"
+IDB_41                  BITMAP                  "ikony//gr_z.bmp"
+IDB_42                  BITMAP                  "ikony//narz_o.bmp"
+IDB_43                  BITMAP                  "ikony//fr_pl_o.bmp"
+IDB_44                  BITMAP                  "ikony//fr_pl_z.bmp"
+IDB_45                  BITMAP                  "ikony//rab_o.bmp"
+IDB_46                  BITMAP                  "ikony//rab_z.bmp"
+IDB_47                  BITMAP                  "ikony//narz_o.bmp"
+IDB_48                  BITMAP                  "ikony//narz_z.bmp"
+IDB_49                  BITMAP                  "ikony//sal.bmp"
+IDB_50                  BITMAP                  "ikony//clock_a.bmp"
+IDB_51                  BITMAP                  "ikony//clock_p.bmp"
+IDB_52                  BITMAP                  "ikony//kasjer1.bmp"
+IDB_53                  BITMAP                  "ikony//kasjer2.bmp"
+IDB_54                  BITMAP                  "ikony//kasjer3.bmp"
+IDB_55                  BITMAP                  "ikony//kasjer4.bmp"
+IDB_56                  BITMAP                  "ikony//kasjer5.bmp"
+IDB_57                  BITMAP                  "ikony//r_per.bmp"
+IDB_58                  BITMAP                  "ikony//wr_per.bmp"
+IDB_59                  BITMAP                  "ikony//r_kas.bmp"
+IDB_60                  BITMAP                  "ikony//wr_kas.bmp"
+IDB_67                  BITMAP                  "ikony//wal.bmp"
+IDB_68                  BITMAP                  "ikony//form_zap.bmp"
+IDB_69                  BITMAP                  "ikony//vat.bmp"
+IDB_70                  BITMAP                  "ikony//num_vat.bmp"
+IDB_71                  BITMAP                  "ikony//jm.bmp"
+IDB_72                  BITMAP                  "ikony//search.bmp"
+IDB_73                  BITMAP                  "ikony//def_kas.bmp"
+IDB_74                  BITMAP                  "ikony//grupa.bmp"
+IDB_75                  BITMAP                  "ikony//stat.bmp"
+IDB_76                  BITMAP                  "ikony//print_mag.bmp"
+IDB_77                  BITMAP                  "ikony//tow_wart.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_1                   ICON                    "ikony//ServerProject.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDM MENU
+BEGIN
+    POPUP "&Aplikacja"
+    BEGIN
+        MENUITEM "&Koniec (CTRL+K)",            ID_Kon
+    END
+    POPUP "&Firma"
+    BEGIN
+        MENUITEM "&Dane o firmie (CTRL+F)",     ID_FIR_P
+    END
+    POPUP "&Magazyn"
+    BEGIN
+        MENUITEM "&Dodaj Artyku³ (ALT+A)",      ID_Dod_A
+        MENUITEM "&Usuñ Artyku³ (ALT+R)",       ID_Us_A
+        MENUITEM "&Edytuj Artyku³ (ALT+E)",     ID_Edit_A
+        MENUITEM "&Przyjêcie Towaru (CTRL+T)",  ID_P_T
+        MENUITEM "&Wydruk widoku tabeli listy towarów", ID_PR_MAG
+        MENUITEM "&Wartoœæ towarów aktualnego widoku tabeli", ID_WART_MAG
+    END
+    POPUP "&Producenci"
+    BEGIN
+        MENUITEM "Dodaj Producenta (ALT+D)",    ID_Pr_A
+        MENUITEM "Zarz¹dzaj (ALT+Z) ",          ID_Za_P
+    END
+    POPUP "&Faktury"
+    BEGIN
+        MENUITEM "Wystaw (ALT+W)",              ID_VAT_W
+        MENUITEM "Zarz¹dzaj (ALT+F)",           ID_VAT_Z
+    END
+    POPUP "&Kontrahenci"
+    BEGIN
+        MENUITEM "Zarz¹dzaj (CTRL+Z)",          ID_KONT_Z
+    END
+    POPUP "&Kasa Fiskalna"
+    BEGIN
+        MENUITEM "&Dodaj Kase Fiskaln¹ (CTRL+A)", ID_K_D
+        MENUITEM "&Usuwanie  Kasy Fiskalnej (CTRL+U)", ID_K_U
+        MENUITEM "&Zmiana Ustawieñ  Kasy Fiskalnej (CTRL+I)", ID_K_Z
+        MENUITEM "&Wyszukaj kasê pod³¹czon¹ bezpoœrednio (CTRL+S)", ID_SZUK_KAS
+        MENUITEM "&Ustaw domyœln¹ kasê fiskaln¹ (CTRL+D)", ID_DEF_KAS
+    END
+    POPUP "&Ustawienia"
+    BEGIN
+        MENUITEM "&Waluty (ALT+M)",             ID_WAL
+        MENUITEM "&Formy Zap³aty (ALT+P)",      ID_F_Z
+        MENUITEM "&Stawki VAT (ALT+S)",         ID_VAT
+        MENUITEM "&Numeracja faktur (ALT+N)",   ID_N_V
+        MENUITEM "&Jendostki miary (ALT+J)",    ID_JM
+        MENUITEM "&Grupy towarowe (ALT+G)",     ID_GR
+    END
+    POPUP "Statystyka sprzeda¿y"
+    BEGIN
+        MENUITEM "&Wyœwietl statystykê sprzeda¿y", ID_STAT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+DLG_ERR DIALOGEX 100, 100, 252, 93
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_CAPTION
+CAPTION "B³¹d Krytyczny"
+FONT 14, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    CTEXT           "Nie mo¿na za³adowaæ biblioteki ""DAM.dll""",DLG_ERR_T,16,30,221,39,SS_REALSIZECONTROL
+    PUSHBUTTON      "OK",DLG_ERR_B,97,75,50,14,BS_BITMAP
+    CONTROL         63,DLG_ERR_I,"Static",SS_BITMAP,110,1,31,31
+END
+
+DLG_I DIALOGEX 100, 100, 252, 100
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_CAPTION
+CAPTION "Informacja"
+FONT 14, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    CTEXT           "Nie mo¿na za³adowaæ biblioteki ""DAM.dll""",DLG_I_T,15,32,221,40
+    PUSHBUTTON      "OK",DLG_I_B,98,78,50,14,BS_BITMAP
+    CONTROL         68,DLG_I_I,"Static",SS_BITMAP,110,1,28,27
+END
+
+DLG_Q DIALOGEX 100, 100, 252, 110
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_CAPTION
+CAPTION "Zapytanie"
+FONT 14, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    CTEXT           "Nie mo¿na za³adowaæ biblioteki ""DAM.dll""",DLG_Q_T,15,32,221,58
+    PUSHBUTTON      "TAK",DLG_Q_B1,52,93,50,14,BS_BITMAP
+    PUSHBUTTON      "NIE",DLG_Q_B2,143,93,50,14,BS_BITMAP
+    CONTROL         67,DLG_Q_I,"Static",SS_BITMAP,110,1,28,27
+END
+
+ID_DLG_14 DIALOGEX 100, 100, 298, 125
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Zast¹p kasê fiskaln¹"
+FONT 11, "Calibri Light", 300, 0, 0xEE
+BEGIN
+    LISTBOX         DLG14_LB1,29,9,239,72,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Anuluj",DLG14_B1,74,94,50,19,BS_BITMAP
+    PUSHBUTTON      "Zapisz",DLG14_B2,177,94,50,19,BS_BITMAP
+END
+
+ID_DLG_15 DIALOGEX 100, 100, 362, 124
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Zmiana konfiguracji kasy fiskalnej"
+FONT 11, "Calibri Light", 300, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "Anuluj",DLG15_B1,102,92,50,19,BS_BITMAP
+    PUSHBUTTON      "Zapisz",DLG15_B2,205,92,50,19,BS_BITMAP
+    CONTROL         "",DLG15_LV1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,17,11,331,67
+END
+
+ID_DLG_13 DIALOGEX 100, 100, 450, 205
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Instalacja Kasy Fiskalnej"
+FONT 9, "Capri", 400, 0, 0x1
+BEGIN
+    LTEXT           "Port Szeregowy",DLG13_T1,17,12,53,8
+    EDITTEXT        DLG13_E1,69,10,30,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Szybkoœæ Transmisji",DLG13_GB1,16,29,103,36
+    RADIOBUTTON     "9600",DLG13_RB1,21,38,32,10
+    RADIOBUTTON     "19200",DLG13_RB2,21,50,36,10
+    RADIOBUTTON     "28800",DLG13_RB3,71,37,36,10
+    RADIOBUTTON     "57600",DLG13_RB4,71,48,36,10
+    GROUPBOX        "",DLG13_GB2,4,3,129,80
+    RADIOBUTTON     "Bezpoœrednio",DLG13_RB5,145,14,61,10
+    RADIOBUTTON     "Multiplekser 4-kana³owy",DLG13_RB6,145,24,93,10
+    RADIOBUTTON     "Modem",DLG13_RB7,145,34,40,10
+    RADIOBUTTON     "Prze³¹cznik multiplekserów",DLG13_RB8,145,44,105,10
+    RADIOBUTTON     "Multiplekser 8-kana³owy",DLG13_RB9,145,55,93,10
+    RADIOBUTTON     "Multiplekser LAN/Delta Max LAN/Jota E",DLG13_RB10,145,66,139,10
+    GROUPBOX        "Rodzaje Transmisji",DLG13_GB3,137,3,156,81
+    GROUPBOX        "Kana³y",DLG13_GB4,296,3,58,81
+    RADIOBUTTON     "1",DLG13_RB11,301,16,20,10,WS_DISABLED
+    RADIOBUTTON     "2",DLG13_RB12,301,27,20,10,WS_DISABLED
+    RADIOBUTTON     "3",DLG13_RB13,301,39,20,10,WS_DISABLED
+    RADIOBUTTON     "4",DLG13_RB14,301,51,20,10,WS_DISABLED
+    RADIOBUTTON     "5",DLG13_RB15,328,15,20,10,WS_DISABLED
+    RADIOBUTTON     "6",DLG13_RB16,328,26,20,10,WS_DISABLED
+    RADIOBUTTON     "7",DLG13_RB17,328,37,20,10,WS_DISABLED
+    RADIOBUTTON     "8",DLG13_RB18,328,50,20,10,WS_DISABLED
+    CONTROL         "",DLG13_SB1,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS,98,10,10,14
+    LTEXT           "Numer Telefonu",DLG13_T2,10,88,61,8
+    LTEXT           "Has³o Autoryzacji",DLG13_T3,10,102,61,8
+    LTEXT           "Timeout Sekwencji AT",DLG13_T4,203,105,75,8
+    LTEXT           "Iloœæ Retransmisji",DLG13_T5,204,120,71,8
+    LTEXT           "Timeout Komunikacji z Modemem",DLG13_T6,203,89,114,8
+    LTEXT           "Typ Modemu",DLG13_T7,11,118,55,8
+    RADIOBUTTON     "Tonowe",DLG13_RB19,348,112,41,10,WS_DISABLED
+    RADIOBUTTON     "Impulsywne",DLG13_RB20,349,123,54,10,WS_DISABLED
+    GROUPBOX        "Wybieranie",DLG13_GB5,344,102,62,40
+    EDITTEXT        DLG13_E2,298,117,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "",DLG13_SB2,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_DISABLED,325,117,10,14
+    EDITTEXT        DLG13_E3,298,102,29,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    EDITTEXT        DLG13_E4,74,86,71,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        DLG13_E5,74,101,71,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        DLG13_E6,346,87,30,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "",DLG13_SB3,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_DISABLED,374,87,10,14
+    CONTROL         "",DLG13_SB4,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_DISABLED,325,102,10,14
+    COMBOBOX        DLG13_CB1,75,119,120,60,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Adres IP/Nazwa Symboliczna",DLG13_T8,18,151,91,8
+    LTEXT           "Port TCP",DLG13_T9,275,150,29,8
+    EDITTEXT        DLG13_E7,112,148,98,14,ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        DLG13_E8,310,147,46,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED
+    CONTROL         "",DLG13_SB5,"msctls_updown32",UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | WS_DISABLED,353,147,10,14
+    PUSHBUTTON      "Testuj Po³¹czenie",DLG13_B1,367,32,70,14
+    PUSHBUTTON      "Zamknij",DLG13_B2,386,6,50,14
+    PUSHBUTTON      "Zapisz Parametry",DLG13_B3,367,54,70,14
+    EDITTEXT        DLG13_E9,112,174,169,14,ES_AUTOHSCROLL
+    CONTROL         "Protokó³ komunikacji: STX",DLG13_CB2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,309,174,97,10
+    LTEXT           "Nazwa kasy fiskalnej",DLG13_T10,19,176,91,8
+END
+
+ID_DLG_12 DIALOGEX 100, 100, 214, 90
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Przyjêcie Towaru"
+FONT 14, "Capri", 0, 0, 0x1
+BEGIN
+    LTEXT           "Iloœæ ",DLG12_T2,30,20,25,8
+    EDITTEXT        DLG12_E1,58,18,41,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    CTEXT           "",DLG12_T1,5,4,204,8
+    PUSHBUTTON      "ZatwierdŸ",DLG12_B1,45,70,50,14
+    PUSHBUTTON      "Anuluj",DLG12_B2,103,70,50,14
+    CONTROL         "Odejmij",DLG12_RB2,"Button",BS_AUTORADIOBUTTON,159,19,41,10
+    CONTROL         "Dodaj",DLG12_RB1,"Button",BS_AUTORADIOBUTTON,124,19,31,10
+    COMBOBOX        DLG12_CB1,113,38,78,78,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Cena Towaru",DLG12_T3,5,40,54,8
+    EDITTEXT        DLG12_E2,58,34,41,14,ES_CENTER | ES_AUTOHSCROLL
+END
+
+ID_DLG_1 DIALOGEX 50, 50, 547, 229
+STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | WS_CAPTION
+CAPTION "Dodaj artyku³"
+FONT 10, "Calibri", 400, 0, 0xEE
+BEGIN
+    EDITTEXT        DLG1_E1,19,16,218,15,ES_UPPERCASE | ES_AUTOVSCROLL | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Nazwa Towaru",DLG1_T1,22,4,100,8,SS_REALSIZECONTROL | NOT WS_GROUP
+    EDITTEXT        DLG1_E2,18,43,218,15,ES_AUTOHSCROLL | ES_READONLY | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Nazwa Producenta",DLG1_T2,20,34,100,9
+    EDITTEXT        DLG1_E3,19,77,50,15,ES_AUTOHSCROLL | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Stan",DLG1_T3,21,68,25,9
+    COMBOBOX        DLG1_E4,102,80,75,150,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_BORDER | WS_VSCROLL
+    LTEXT           "Jednostka miary",DLG1_T4,103,71,73,9,SS_REALSIZECONTROL | NOT WS_GROUP
+    EDITTEXT        DLG1_E5,19,121,75,15,WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Cena Zakupu",DLG1_T5,21,112,71,9
+    EDITTEXT        DLG1_E6,164,121,50,15,ES_AUTOVSCROLL | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Mar¿a(%)",DLG1_T6,165,111,30,9
+    EDITTEXT        DLG1_E7,19,150,75,15,ES_AUTOVSCROLL | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Cena Netto",DLG1_T7,20,140,61,8,SS_REALSIZECONTROL | NOT WS_GROUP
+    COMBOBOX        DLG1_E8,286,121,50,100,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_BORDER | WS_VSCROLL
+    LTEXT           "Podatek VAT(%)",DLG1_T8,287,111,52,9
+    EDITTEXT        DLG1_E9,163,150,75,15,ES_AUTOVSCROLL | WS_GROUP,WS_EX_DLGMODALFRAME | 0x800L
+    LTEXT           "Cena Brutto",DLG1_T9,164,141,57,9
+    EDITTEXT        DLG1_E10,195,77,75,15,ES_AUTOVSCROLL | ES_NUMBER | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Stan Krytyczny",DLG1_T10,197,67,75,9
+    GROUPBOX        "Stan magazynowy, Jednostka miary, Grupa",DLG1_GB2,15,59,369,40,WS_TABSTOP
+    PUSHBUTTON      "Anuluj",DLG1_B1,167,204,50,19,WS_BORDER
+    PUSHBUTTON      "OK",DLG1_B2,237,204,50,19,WS_BORDER
+    PUSHBUTTON      "Wybierz Producenta",DLG1_B3,256,31,97,18,WS_BORDER
+    EDITTEXT        DLG1_E12,15,183,102,15,ES_UPPERCASE | ES_AUTOVSCROLL | ES_NUMBER | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Numer towaru w kasie fiskalnej",DLG1_T11,16,172,101,9,SS_REALSIZECONTROL | NOT WS_GROUP
+    EDITTEXT        DLG1_E13,151,183,111,15,ES_UPPERCASE | ES_AUTOVSCROLL | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Kod Kreskowy",DLG1_T12,153,172,53,9,SS_REALSIZECONTROL | NOT WS_GROUP
+    LTEXT           "PLN (z³)",DLG1_T13,97,124,41,14,SS_REALSIZECONTROL | NOT WS_GROUP
+    LTEXT           "PLN (z³)",DLG1_T14,218,123,45,14,SS_REALSIZECONTROL | NOT WS_GROUP
+    LTEXT           "PLN (z³)",DLG1_T15,98,152,46,14,SS_REALSIZECONTROL | NOT WS_GROUP
+    LTEXT           "PLN (z³)",DLG1_T16,339,123,26,14,SS_REALSIZECONTROL | NOT WS_GROUP
+    LTEXT           "PLN (z³)",DLG1_T17,241,151,46,14,SS_REALSIZECONTROL | NOT WS_GROUP
+    GROUPBOX        "Ceny netto oraz brutto towaru",DLG1_GB1,13,103,371,67,WS_TABSTOP
+    COMBOBOX        DLG1_E14,298,78,75,150,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_BORDER | WS_VSCROLL
+    LTEXT           "Grupa towarowa",298,299,67,76,9
+    CONTROL         "Wy³¹czony z narzutu i mar¿y",DLG1_C1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,400,73,98,10
+    CONTROL         "Zawsze mo¿na wprowadziæ cenê",DLG1_C2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,400,91,115,10
+    CONTROL         "Towar jest na liœcie podrêcznej",DLG1_C3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,400,112,127,10
+    CONTROL         "Towar zablokowany",DLG1_C4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,400,132,126,10
+    GROUPBOX        "Atrybuty towaru",DLG1_GB3,388,59,156,111,WS_TABSTOP
+    CONTROL         "Towar jest opakowaniem",DLG1_C5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,400,148,126,10
+    EDITTEXT        DLG1_E15,292,183,124,15,ES_AUTOVSCROLL | ES_AUTOHSCROLL | WS_GROUP,WS_EX_DLGMODALFRAME
+    LTEXT           "Numer faktury VAT ceny zakupu towaru",DLG1_T18,293,173,123,9,SS_REALSIZECONTROL | NOT WS_GROUP
+END
+
+ID_DLG_2 DIALOGEX 25, 50, 599, 210
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Szukaj Producenta"
+FONT 10, "Calibri", 400, 0, 0xEE
+BEGIN
+    GROUPBOX        "Szukaj wed³ug",DLG2_B1,479,16,105,82,WS_TABSTOP
+    CHECKBOX        "NAZWA",DLG2_RB1,486,32,37,15
+    CHECKBOX        "NIP",DLG2_RB2,486,52,27,15
+    CHECKBOX        "REGON",DLG2_RB3,535,32,35,15
+    CHECKBOX        "ADRES",DLG2_RB4,535,52,33,15
+    CONTROL         "",DLG2_LV1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,9,20,451,82,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Szukaj",DLG2_B2,485,76,50,14,WS_BORDER
+    PUSHBUTTON      "OK",DLG2_B3,248,187,50,14,WS_BORDER
+    PUSHBUTTON      "Anuluj",DLG2_B4,188,187,50,14,WS_BORDER
+    LTEXT           "NIP",DLG2_T1,16,141,26,11
+    EDITTEXT        DLG2_E1,63,123,157,14,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "NAZWA",DLG2_T2,15,124,26,11
+    EDITTEXT        DLG2_E2,62,139,157,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "REGON",DLG2_T3,15,158,26,11
+    EDITTEXT        DLG2_E3,62,156,157,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "Kraj",DLG2_T4,255,124,26,11
+    EDITTEXT        DLG2_E4,301,122,157,14,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "Miasto",DLG2_T5,253,141,26,11
+    EDITTEXT        DLG2_E5,299,139,157,14,ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "-",DLG2_T6,324,169,8,15
+    EDITTEXT        DLG2_E6,300,157,23,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG2_E7,329,157,38,14,ES_AUTOHSCROLL | ES_NUMBER | WS_DISABLED | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "KOD POCZTOWY",DLG2_T7,252,156,41,19
+    GROUPBOX        "Dane adresowe",DLG2_B5,246,109,233,70,WS_TABSTOP
+    GROUPBOX        "Dane przedsiêbiorstwa",DLG2_B6,6,109,237,70,WS_TABSTOP
+    PUSHBUTTON      "Dodaj nowego Producenta",DLG2_B7,483,113,102,14,WS_BORDER
+    PUSHBUTTON      "Usuñ producenta z bazy",DLG2_B8,485,134,102,14,WS_BORDER
+    PUSHBUTTON      "Edytuj",DLG2_B9,486,155,102,14,WS_BORDER
+END
+
+ID_DLG_3 DIALOGEX 25, 25, 499, 188
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Dodaj Producenta"
+FONT 10, "Calibri", 400, 0, 0xEE
+BEGIN
+    LTEXT           "KRAJ",DLG3_T1,23,72,34,10
+    LTEXT           "NIP",DLG3_T2,227,17,31,8
+    EDITTEXT        DLG3_E1,24,29,188,14,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "NAZWA",DLG3_T3,25,16,28,8
+    EDITTEXT        DLG3_E2,226,28,108,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "REGON",DLG3_T4,346,17,31,8
+    EDITTEXT        DLG3_E3,345,28,108,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG3_E4,20,84,161,14,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LISTBOX         DLG3_LB1,20,99,161,68,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP,WS_EX_DLGMODALFRAME
+    LTEXT           "MIASTO",DLG3_T5,225,73,34,8
+    EDITTEXT        DLG3_E5,223,85,113,14,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "ULICA",DLG3_T6,224,103,34,8
+    EDITTEXT        DLG3_E6,222,115,113,14,ES_UPPERCASE | ES_AUTOHSCROLL | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "KOD POCZTOWY",DLG3_T9,222,142,68,8
+    EDITTEXT        DLG3_E9,222,154,31,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG3_E10,263,154,38,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    CTEXT           "-",DLG3_T10,252,155,8,13
+    LTEXT           "TELEFON",DLG3_T11,366,75,28,13
+    EDITTEXT        DLG3_E11,361,85,91,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    LTEXT           "FAX",DLG3_T12,365,103,26,8
+    EDITTEXT        DLG3_E12,363,115,90,14,ES_AUTOHSCROLL | ES_NUMBER | NOT WS_BORDER,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "ANULUJ",DLG3_B1,353,161,50,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "DODAJ",DLG3_B2,436,161,50,14,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Dane Podstawowe",DLG3_RGB1,0,5,464,52
+    GROUPBOX        "Dane Adresowe",DLG3_RGB2,0,62,337,116
+    GROUPBOX        "Dane Kontaktowe",DLG3_RGB3,357,63,107,81
+END
+
+ID_DLG_4 DIALOGEX 100, 100, 356, 280
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Faktura VAT"
+FONT 11, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    LTEXT           "*Nazwa Towaru/Us³ugi",DLG4_T1,7,17,71,8
+    LTEXT           "PKWiU",DLG4_T2,7,31,71,8
+    LTEXT           "*Iloœæ",DLG4_T3,7,48,71,8
+    LTEXT           "JM.",DLG4_T4,7,67,71,8
+    LTEXT           "*Cena Towaru",DLG4_T5,202,35,49,8
+    LTEXT           "*Stawka VAT",DLG4_T6,201,51,44,8
+    LTEXT           "Rabat (%)",DLG4_T7,202,69,39,8
+    EDITTEXT        DLG4_E2,77,29,60,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG4_E3,77,44,60,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG4_E5,247,33,60,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG4_E6,247,49,60,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG4_E7,247,65,60,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG4_E8,76,80,103,14,ES_AUTOHSCROLL | ES_READONLY,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Wyszukaj...",DLG4_B1,203,16,50,14,0,WS_EX_DLGMODALFRAME | WS_EX_CONTROLPARENT
+    GROUPBOX        "Dane do faktury",DLG4_GR1,4,4,346,117
+    CONTROL         "Cena Netto",DLG4_RB1,"Button",BS_AUTORADIOBUTTON,200,86,48,10
+    CONTROL         "Cena Brutto",DLG4_RB2,"Button",BS_AUTORADIOBUTTON,254,85,49,10
+    LTEXT           "Nazwa Kontrahenta",DLG4_T8,9,84,63,8
+    EDITTEXT        DLG4_E1,77,14,102,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "ZnajdŸ...",DLG4_B2,77,98,50,14,0,WS_EX_DLGMODALFRAME | WS_EX_CONTROLPARENT
+    CONTROL         "",DLG4_LV1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER,10,165,345,80,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "ZatwierdŸ",DLG4_B3,153,251,50,14,0,WS_EX_DLGMODALFRAME | WS_EX_CONTROLPARENT
+    PUSHBUTTON      "Anuluj",DLG4_B4,88,251,50,14,0,WS_EX_DLGMODALFRAME | WS_EX_CONTROLPARENT
+    PUSHBUTTON      "Dodaj do Faktury",DLG4_B5,267,100,75,14,0,WS_EX_DLGMODALFRAME | WS_EX_CONTROLPARENT
+    COMBOBOX        DLG4_E4,78,64,59,70,CBS_DROPDOWN | WS_VSCROLL
+    PUSHBUTTON      "Usuñ pozycjê z faktury",DLG4_B6,182,101,76,14,0,WS_EX_DLGMODALFRAME
+    CONTROL         "Zwrot",DLG4_CH1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,311,33,32,10
+    PUSHBUTTON      "Drukuj Proformê",DLG4_B7,222,251,56,14,0,WS_EX_DLGMODALFRAME | WS_EX_CONTROLPARENT
+    EDITTEXT        DLG4_E10,13,134,60,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG4_E11,86,134,60,14,ES_AUTOHSCROLL | ES_READONLY,WS_EX_DLGMODALFRAME
+    LTEXT           "Zap³acono",DLG4_T10,17,125,33,8
+    LTEXT           "Pozosta³o do zap³aty",DLG4_T11,87,125,66,8
+    LTEXT           "Forma zap³aty",DLG4_T12,165,124,56,8
+    COMBOBOX        DLG4_E12,165,134,66,120,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Termin p³atnoœæi (iloœæ dni)",DLG4_T13,250,125,86,8
+    EDITTEXT        DLG4_E13,250,134,60,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+END
+
+ID_DLG_5 DIALOGEX 0, 0, 323, 227
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Wybierz Towar"
+FONT 12, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "OK",DLG5_B1,95,181,50,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Anuluj",DLG5_B2,157,180,50,14,0,WS_EX_DLGMODALFRAME
+    LISTBOX         DLG5_LB1,16,41,298,129,WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        DLG5_E1,17,25,115,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Nazwa Towaru",DLG5_T1,19,14,46,8
+    EDITTEXT        DLG5_E2,137,24,86,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Kod Krótki",DLG5_T2,138,15,46,8
+    EDITTEXT        DLG5_E3,229,25,86,14,ES_UPPERCASE | ES_AUTOHSCROLL
+    LTEXT           "Kod Kreskowy",DLG5_T3,230,15,46,8
+    PUSHBUTTON      "Dodaj Nowy",DLG5_B3,248,180,50,14,0,WS_EX_DLGMODALFRAME
+END
+
+ID_DLG_7 DIALOGEX 100, 100, 222, 183
+STYLE DS_SETFONT | WS_CAPTION
+CAPTION "Kontrahent"
+FONT 12, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    LTEXT           "Nazwa *",DLG7_T1,11,13,25,8
+    LTEXT           "Adres *",DLG7_T2,11,34,24,8
+    LTEXT           "Kod Pocztowy *",DLG7_T3,12,53,50,8
+    LTEXT           "Miasto * ",DLG7_T4,124,53,26,8
+    LTEXT           "NIP *",DLG7_T5,12,94,17,8
+    LTEXT           "Regon",DLG7_T6,13,114,21,8
+    LTEXT           "Telefon",DLG7_T7,12,131,23,8
+    LTEXT           "-",DLG7_T8,89,53,8,8
+    EDITTEXT        DLG7_E1,64,9,142,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG7_E2,64,29,141,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG7_E3,65,50,20,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG7_E4,96,50,27,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG7_E5,150,51,55,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG7_E7,66,90,82,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG7_E8,66,109,82,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    EDITTEXT        DLG7_E9,67,127,81,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Anuluj",DLG7_B1,64,150,50,14,NOT WS_TABSTOP,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Dodaj",DLG7_B2,121,150,50,14,NOT WS_TABSTOP,WS_EX_DLGMODALFRAME
+    LTEXT           "Kraj *",DLG7_T9,12,72,19,8
+    EDITTEXT        DLG7_E6,65,69,140,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+END
+
+ID_DLG_6 DIALOGEX 100, 100, 362, 159
+STYLE DS_SETFONT | WS_CAPTION
+CAPTION "Kontrahenci"
+FONT 12, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    EDITTEXT        DLG6_E1,7,23,92,14,ES_AUTOHSCROLL,WS_EX_DLGMODALFRAME
+    LTEXT           "Nazwa Kontrahenta",DLG7_T1,8,13,59,8
+    EDITTEXT        DLG6_E2,116,22,82,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    LTEXT           "NIP",DLG6_T2,119,11,13,8
+    LTEXT           "Regon",DLG6_T3,218,11,21,8
+    EDITTEXT        DLG6_E3,215,23,88,14,ES_AUTOHSCROLL | ES_NUMBER,WS_EX_DLGMODALFRAME
+    CONTROL         "",DLG6_LV1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,8,55,293,89,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Dodaj",DLG6_B1,304,55,50,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Usuñ",DLG6_B2,304,79,50,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Edytuj",DLG6_B3,303,104,50,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "WyjdŸ",DLG6_B4,333,0,29,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Wybierz",DLG6_B5,304,129,50,14,0,WS_EX_DLGMODALFRAME
+END
+
+ID_DLG_8 DIALOGEX 100, 100, 388, 228
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Faktury"
+FONT 12, "Franklin Gothic Medium", 400, 0, 0xEE
+BEGIN
+    LTEXT           "Dzieñ",DLG8_T1,192,55,19,9
+    LTEXT           "Nazwa Kontrahenta",DLG8_T2,10,57,72,9
+    LTEXT           "Regon Kontrahenta",DLG8_T3,10,93,70,9
+    LTEXT           "Nip Kontrahenta",DLG8_T4,60,77,11,9
+    LTEXT           "Numer",DLG8_T5,48,21,23,9
+    LTEXT           "Rok",DLG8_T6,196,90,14,9
+    LTEXT           "Miesi¹c",DLG8_T7,187,74,25,9
+    EDITTEXT        DLG8_E2,85,55,85,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG8_E1,85,17,85,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG8_E3,85,73,85,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG8_E4,85,91,85,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG8_E5,214,54,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG8_E6,248,54,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG8_E7,214,72,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    GROUPBOX        "Dane Kontrahenta",DLG8_GB1,5,41,175,77
+    GROUPBOX        "Data Wystawienia Faktury",DLG8_GB2,185,41,114,78
+    EDITTEXT        DLG8_E8,248,72,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG8_E9,214,90,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG8_E10,248,90,26,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           " -",DLG8_T8,240,57,8,8
+    LTEXT           " -",DLG8_T9,240,75,8,8
+    LTEXT           " -",DLG8_T10,240,91,8,8
+    CONTROL         "",DLG8_LV1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,5,141,368,78,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Zamknij",DLG8_B1,341,5,33,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Szukaj...",DLG8_B2,5,123,33,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Podgl¹d",DLG8_B3,47,123,33,14,0,WS_EX_DLGMODALFRAME
+    GROUPBOX        "Numer Faktury",DLG8_GB3,5,7,175,34
+    CONTROL         "Zaplacona",DLG8_RB1,"Button",BS_AUTORADIOBUTTON,312,57,48,10
+    CONTROL         "Nie Zap³acona",DLG8_RB2,"Button",BS_AUTORADIOBUTTON,312,68,60,10
+    CONTROL         "Do Zwrotu",DLG8_RB3,"Button",BS_AUTORADIOBUTTON,312,79,47,10
+    GROUPBOX        "Atrybuty Faktury",DLG8_GB4,304,41,77,78
+    CONTROL         "Korekty",DLG8_CH1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,313,104,39,10
+    CONTROL         "Wszystkie",DLG8_RB4,"Button",BS_AUTORADIOBUTTON,312,90,47,10
+    PUSHBUTTON      "Usuñ fakturê",DLG8_B4,94,123,71,14,0,WS_EX_DLGMODALFRAME
+END
+
+ID_DLG_9 DIALOGEX 100, 100, 329, 194
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Faktura VAT"
+FONT 12, "Franklin Gothic Medium", 400, 0, 0xEE
+BEGIN
+    GROUPBOX        "Dane Kontrahenta",DLG9_GB1,7,17,165,84
+    EDITTEXT        DLG9_E1,14,27,151,69,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL | WS_HSCROLL
+    EDITTEXT        DLG9_E2,185,28,102,17,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Numer Faktury",DLG9_GB2,175,16,120,39
+    CONTROL         "",DLG9_LV1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,5,106,318,66
+    PUSHBUTTON      "Zamknij",DLG9_B1,260,3,50,14,0,WS_EX_DLGMODALFRAME
+    PUSHBUTTON      "Drukuj",DLG9_B2,176,66,50,14
+    PUSHBUTTON      "Korekta",DLG9_B3,175,86,50,14
+    PUSHBUTTON      "Zapisz zmiany",DLG9_B4,261,175,50,14
+    EDITTEXT        DLG9_E3,251,85,65,14,ES_AUTOHSCROLL
+    LTEXT           "Zap³acono",DLG9_T1,252,74,42,8
+END
+
+ID_DLG_10 DIALOGEX 100, 100, 269, 113
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_CAPTION
+CAPTION "Dane Firmy"
+FONT 11, "Franklin Gothic Medium", 400, 0, 0xEE
+BEGIN
+    LTEXT           "Nazwa",DLG10_T1,27,25,27,11
+    LTEXT           "Adres",DLG10_T2,28,42,27,10
+    LTEXT           "Kod Pocztowy",DLG10_T3,2,59,47,11
+    LTEXT           "Miasto",DLG10_T4,25,77,27,10
+    LTEXT           "Kraj",DLG10_T5,31,91,27,10
+    LTEXT           "NIP",DLG10_T6,172,22,14,11
+    LTEXT           "Regon",DLG10_T7,164,40,22,10
+    LTEXT           "Telefon",DLG10_T8,159,58,27,10
+    EDITTEXT        DLG10_E1,63,23,87,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG10_E2,63,39,86,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG10_E3,63,55,20,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG10_E4,93,55,27,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG10_E5,63,71,57,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG10_E6,63,87,57,14,ES_AUTOHSCROLL
+    EDITTEXT        DLG10_E7,189,21,57,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG10_E8,189,38,57,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG10_E9,189,55,57,14,ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "-",DLG10_T9,85,57,8,10
+    PUSHBUTTON      "Zamknij",DLG10_B1,185,88,31,14
+    PUSHBUTTON      "Zapisz",DLG10_B2,140,89,31,14
+END
+
+ID_DLG_11 DIALOGEX 100, 100, 349, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Drukuj Fakturê"
+FONT 12, "Times New Roman", 700, 0, 0xEE
+BEGIN
+    COMBOBOX        DLG11_CB1,10,11,228,75,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Drukarka",DLG11_GB1,5,2,239,33
+    RADIOBUTTON     "Orygina³",DLG11_RB1,258,11,42,10
+    RADIOBUTTON     "Kopia",DLG11_RB2,258,22,33,10
+    RADIOBUTTON     "Kopia/Orygina³",DLG11_RB3,258,32,56,10
+    RADIOBUTTON     "Kopia i Orygina³",DLG11_RB4,258,42,60,10
+    RADIOBUTTON     "Proforma",DLG11_RB5,258,53,49,10
+    PUSHBUTTON      "Drukuj",DLG11_B1,7,42,30,14
+    PUSHBUTTON      "Anuluj",DLG11_B2,50,42,30,14
+    GROUPBOX        "Opcje faktury",DLG11_GB2,249,1,91,63
+    GROUPBOX        "Opcje wydruku",DLG11_GB3,126,44,115,55
+    RADIOBUTTON     "Jednostrony",DLG11_RB6,134,57,52,10
+    RADIOBUTTON     "Dwustr. (wed³. d³ug. krawêdzi)",DLG11_RB7,134,70,104,10
+    RADIOBUTTON     "Dwustr. (wed³. krót. krawêdzi)",DLG11_RB8,134,84,104,10
+    GROUPBOX        "Orientacja",DLG11_GB4,249,67,91,32
+    RADIOBUTTON     "Pionowa",DLG11_RB9,255,75,40,10
+    RADIOBUTTON     "Pozioma",DLG11_RB10,255,86,40,10
+    GROUPBOX        "Opcje koloru",DLG11_GB5,7,66,109,33
+    RADIOBUTTON     "Kolor",DLG11_RB11,13,74,33,10
+    RADIOBUTTON     "Monochrom",DLG11_RB12,13,85,52,10
+END
+
+ID_DLG_16 DIALOGEX 100, 100, 274, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia Walut"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG16_LB1,11,28,96,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG16_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj walutê",DLG16_B2,134,50,50,14
+    PUSHBUTTON      "Usuñ zaznaczon¹ walute",DLG16_B3,134,70,70,14
+    PUSHBUTTON      "Ustaw domœln¹ walutê",DLG16_B4,134,90,71,14
+    EDITTEXT        DLG16_E1,135,29,41,14,ES_AUTOHSCROLL
+    LTEXT           "Domyœlna waluta : PLN(z³)",DLG16_T1,17,106,111,8
+    LTEXT           "Nazwa waluty",DLG16_T2,136,19,40,8
+    EDITTEXT        DLG16_E2,195,29,41,14,ES_AUTOHSCROLL
+    LTEXT           "Znak waluty",DLG16_T3,196,19,37,8
+END
+
+ID_DLG_17 DIALOGEX 100, 100, 274, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia Form zap³¹ty"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG17_LB1,11,5,96,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG17_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj formê zap³aty",DLG17_B2,137,36,86,14
+    PUSHBUTTON      "Usuñ formê zap³aty",DLG17_B3,137,64,86,14
+    PUSHBUTTON      "Ustaw domœln¹ formê zap³aty",DLG17_B4,137,92,87,14
+    LTEXT           "Domyœlna forma zap³aty : Gotówka",DLG17_T1,14,128,111,8
+    LTEXT           "Nazwa formy zap³aty",DLG17_T2,138,5,64,8
+    EDITTEXT        DLG17_E1,138,15,83,14,ES_AUTOHSCROLL
+    LTEXT           "Opis formy zap³aty",DLG17_T3,12,71,64,8
+    EDITTEXT        DLG17_E2,12,80,96,43,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+ID_DLG_18 DIALOGEX 100, 100, 274, 150
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia Stawek VAT"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG18_LB1,11,5,96,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG18_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj stawkê VAT",DLG18_B2,137,36,86,14
+    PUSHBUTTON      "Usuñ stawkê VAT",DLG18_B3,137,64,86,14
+    PUSHBUTTON      "Ustaw domœln¹ stawkê VAT",DLG18_B4,137,92,87,14
+    LTEXT           "Domyœlna stawka VAT : 23%",DLG18_T1,14,128,111,8
+    LTEXT           "Stawka VAT w (%)",DLG18_T2,138,5,64,8
+    EDITTEXT        DLG18_E1,138,15,83,14,ES_AUTOHSCROLL
+    LTEXT           "Opis",DLG18_T3,12,71,64,8
+    EDITTEXT        DLG18_E2,12,80,96,43,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL | WS_HSCROLL
+END
+
+ID_DLG_19 DIALOGEX 100, 100, 274, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia jednostek miar"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG19_LB1,11,28,96,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG19_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj jednostkê miary",DLG19_B2,124,50,108,14
+    PUSHBUTTON      "Usuñ zaznaczon¹ jednostkê miary",DLG19_B3,124,70,108,14
+    PUSHBUTTON      "Ustaw domœln¹ jedostkê miary",DLG19_B4,124,90,109,14
+    EDITTEXT        DLG19_E1,125,29,62,14,ES_AUTOHSCROLL
+    LTEXT           "Domyœlna jednostka miary : PLN(z³)",DLG19_T1,17,110,190,8
+    LTEXT           "Nazwa jednostki miary",DLG19_T2,125,19,63,8
+    EDITTEXT        DLG19_E2,202,29,58,14,ES_AUTOHSCROLL
+    LTEXT           "Znak jednostki miary",DLG19_T3,203,19,59,8
+END
+
+ID_DLG_29 DIALOGEX 100, 100, 274, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia grup towarowych"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG29_LB1,11,28,96,58,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG29_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj grupê towarow¹",DLG29_B2,124,50,108,14
+    PUSHBUTTON      "Usuñ grupê towarow¹",DLG29_B3,124,70,108,14
+    PUSHBUTTON      "Ustaw domyœln¹ grupê towarow¹",DLG29_B4,124,90,109,14
+    EDITTEXT        DLG29_E1,125,29,62,14,ES_AUTOHSCROLL
+    LTEXT           "Domyœlna grupa towarowa: TOWAR",DLG29_T1,17,110,190,8
+    LTEXT           "Nazwa grupy towarowej",DLG29_T2,125,19,68,8
+END
+
+ID_DLG_20 DIALOGEX 100, 100, 176, 60
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Numeracja faktury Vat"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LTEXT           "Przedrostek",DLG20_T1,40,8,37,8
+    LTEXT           "/ Numer",DLG20_T2,76,18,25,8
+    LTEXT           "/ Rok",DLG20_T3,107,18,18,8
+    PUSHBUTTON      "WyjdŸ",DLG20_B1,152,0,23,11
+    PUSHBUTTON      "OK",DLG20_B2,82,39,30,10
+    PUSHBUTTON      "Anuluj",DLG20_B3,40,39,30,10
+    EDITTEXT        DLG20_E1,39,16,32,14,ES_AUTOHSCROLL
+END
+
+ID_DLG_21 DIALOGEX 100, 100, 362, 124
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Wyszukiwanie kas fiskalnych"
+FONT 11, "Calibri Light", 300, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "Anuluj",DLG21_B1,314,109,40,12
+    PUSHBUTTON      "Wyszukaj",DLG21_B2,237,109,46,12
+    CONTROL         "",DLG21_LV1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,17,16,331,67
+    PUSHBUTTON      "Zapisz kasê fiskaln¹",DLG21_B3,18,108,104,12
+    PUSHBUTTON      "WyjdŸ",DLG21_B5,335,0,27,12
+    CONTROL         "",DLG21_PB1,"msctls_progress32",WS_BORDER,234,88,113,7
+    CTEXT           "",DLG21_T1,277,98,22,8
+END
+
+ID_DLG_22 DIALOGEX 100, 100, 362, 124
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Zapisanie konfiguracji kasy fiskalnej"
+FONT 11, "Calibri Light", 300, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "Zast¹p",DLG22_B1,102,92,49,14
+    PUSHBUTTON      "Dodaj now¹",DLG22_B2,198,92,49,15
+    PUSHBUTTON      "WyjdŸ",DLG22_B3,327,0,35,10
+    CONTROL         "",DLG22_LV1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,17,15,331,67
+END
+
+ID_DLG_23 DIALOGEX 100, 100, 362, 124
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Wybierz kasê fiskaln¹"
+FONT 11, "Calibri Light", 300, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "Anuluj",DLG23_B1,102,92,50,19,BS_BITMAP
+    PUSHBUTTON      "Ustaw jako domyœln¹",DLG23_B2,205,92,86,19,BS_BITMAP
+    CONTROL         "",DLG23_LV1,"SysListView32",LVS_REPORT | LVS_SINGLESEL | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,17,11,331,67
+END
+
+ID_DLG_24 DIALOGEX 100, 50, 559, 216
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Pobieranie towarów"
+FONT 11, "Calibri Light", 300, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "Anuluj pobieranie",DLG24_B1,453,187,80,19
+    PUSHBUTTON      "Dodaj zaznaczone towary do bazy",DLG24_B2,14,141,134,19
+    CONTROL         "",DLG24_LV1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,17,18,526,110
+    PUSHBUTTON      "WyjdŸ",DLG24_B3,530,0,29,12
+    PUSHBUTTON      "Scal wyszukane towary z baz¹",DLG24_B4,14,190,134,19
+    CONTROL         "",DLG24_PB1,"msctls_progress32",PBS_SMOOTH | PBS_SMOOTHREVERSE | PBS_MARQUEE | WS_BORDER,259,152,282,14,WS_EX_DLGMODALFRAME
+    LTEXT           "0%",DLG24_T1,391,169,28,8
+    PUSHBUTTON      "Dodaj wszystkie towary do bazy",DLG24_B5,14,165,134,19
+    CONTROL         "",DLG24_T2,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,264,138,245,8
+END
+
+ID_DLG_25 DIALOGEX 100, 150, 539, 181
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Zapisywanie towarów"
+FONT 11, "Calibri Light", 300, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "Zakoñcz",DLG25_B1,225,152,64,13
+    RADIOBUTTON     "Zast¹p zaznaczone towary do bazy",DLG25_RB1,14,108,134,10,WS_TABSTOP
+    CONTROL         "",DLG25_LV1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,0,9,516,80
+    RADIOBUTTON     "Zast¹p wszystkike towary",DLG25_RB2,14,126,120,12,WS_TABSTOP
+    RADIOBUTTON     "Nie zmieniaj",DLG25_RB3,14,146,134,8,WS_TABSTOP
+    CONTROL         "",DLG25_PB1,"msctls_progress32",PBS_SMOOTH | PBS_SMOOTHREVERSE | PBS_MARQUEE | WS_BORDER,214,108,281,12,WS_EX_DLGMODALFRAME | WS_EX_STATICEDGE
+    LTEXT           "0%",DLG25_T1,343,122,28,8
+END
+
+ID_DLG_26 DIALOGEX 20, 40, 278, 69
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_CAPTION
+CAPTION "Komukacja z kas¹ fiskaln¹"
+FONT 14, "Calibri", 400, 0, 0xEE
+BEGIN
+    LTEXT           "Odczytywanie danych z kasy fiskalnej\n Proszê czekaæ...",DLG26_T1,55,21,217,31
+END
+
+ID_DLG_27 DIALOGEX 20, 40, 329, 155
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_CAPTION
+CAPTION "Odczytanie danych o towarze"
+FONT 13, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    LTEXT           "Numer towaru",DLG27_T1,16,15,47,8
+    EDITTEXT        DLG27_E1,90,13,40,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Nazwa towaru",DLG27_T2,16,34,47,8
+    EDITTEXT        DLG27_E2,90,32,139,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Stawka podadtkowa",DLG27_T3,16,52,60,8
+    COMBOBOX        DLG27_LB2,90,50,85,90,CBS_DROPDOWNLIST | WS_DISABLED
+    LTEXT           "Grupa",DLG27_T4,16,71,47,8
+    COMBOBOX        DLG27_LB3,90,69,85,80,CBS_DROPDOWNLIST | WS_DISABLED
+    LTEXT           "Miejsce po przecinku",DLG27_T5,180,15,67,8
+    EDITTEXT        DLG27_E3,254,13,40,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Jednostka miary",DLG27_T6,180,48,57,8
+    COMBOBOX        DLG27_LB1,254,46,69,60,CBS_DROPDOWNLIST | WS_DISABLED | WS_VSCROLL | WS_HSCROLL
+    LTEXT           "Kod kreskowy",DLG27_T7,180,66,47,8
+    EDITTEXT        DLG27_E4,254,64,69,12,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Cena brutto",DLG27_T8,180,85,47,8
+    EDITTEXT        DLG27_E5,254,83,51,12,ES_AUTOHSCROLL | WS_DISABLED
+    CONTROL         "Zablokowany",DLG27_CB1,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,16,100,56,10
+    CONTROL         "Opakowanie",DLG27_CB2,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,92,101,46,9
+    PUSHBUTTON      "WyjdŸ",DLG27_B1,304,0,24,11
+    PUSHBUTTON      "Zapisz",DLG27_B2,297,144,32,11,NOT WS_VISIBLE
+    CONTROL         "Towar wy³¹czony z narzutu i rabatu",DLG27_CB3,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,172,102,120,10
+    CONTROL         "Mo¿na zawsze wprowdziæ cenê dla towaru",DLG27_CB4,
+                    "Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,16,119,143,9
+    CONTROL         "Towar jest na liœcie podrêcznej",DLG27_CB5,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,172,118,127,9
+END
+
+ID_DLG_28 DIALOGEX 20, 40, 396, 222
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_CAPTION
+CAPTION "Wysy³anie towarów do kasy fiskalnej"
+FONT 13, "Times New Roman", 400, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "WyjdŸ",DLG28_B1,370,0,26,12
+    PUSHBUTTON      "Start",DLG28_B2,107,206,26,12
+    PUSHBUTTON      "Anuluj",DLG28_B3,264,206,26,12
+    CONTROL         "",DLG28_PB1,"msctls_progress32",PBS_SMOOTH | PBS_SMOOTHREVERSE | PBS_MARQUEE | WS_BORDER,144,196,112,8,WS_EX_DLGMODALFRAME
+    CTEXT           "0%",DLG28_T1,189,206,26,8
+    LTEXT           "Nazwa towaru zawiera ci¹g",DLG28_T2,12,157,84,8
+    EDITTEXT        DLG28_E1,12,167,81,13,ES_AUTOHSCROLL
+    LTEXT           "Numer towaru",DLG28_T3,117,157,53,8
+    EDITTEXT        DLG28_E2,105,167,26,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG28_E3,149,167,26,13,ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "-",DLG28_T4,134,170,8,9
+    LTEXT           "Stan magazynowy",DLG28_T5,199,157,53,8
+    EDITTEXT        DLG28_E4,185,167,26,13,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG28_E5,231,167,26,13,ES_AUTOHSCROLL | ES_NUMBER
+    CTEXT           "-",DLG28_T6,216,170,8,9
+    GROUPBOX        "Kryteria dodania towaru do kasy fiskalnej",DLG28_GB1,4,143,258,49
+    EDITTEXT        DLG28_E6,6,31,91,14,ES_AUTOHSCROLL
+    LTEXT           "Nazwa towaru",DLG28_T7,7,18,44,8
+    EDITTEXT        DLG28_E7,112,31,60,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Numer towaru",DLG28_T8,113,18,44,8
+    EDITTEXT        DLG28_E8,194,31,72,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Kod kreskowy",DLG28_T9,195,18,44,8
+    LISTBOX         DLG28_LB1,7,68,183,72,LBS_SORT | LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | LBS_EXTENDEDSEL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         DLG28_LB2,205,68,183,72,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Wyszukiwanie",DLG28_GB2,2,8,276,43,0,WS_EX_RIGHT
+    LTEXT           "Towary zapisane w bazie danych",DLG28_T10,13,56,102,8
+    LTEXT           "Towary które bêd¹ wys³ane do kasy fiskalnej",DLG28_T11,206,56,145,8
+    PUSHBUTTON      "Dodaj do listy",DLG28_B4,128,52,64,12
+    CONTROL         "Wyœlij towary z listy",DLG28_RB1,"Button",BS_AUTORADIOBUTTON,274,158,76,10
+    CONTROL         "Wyœlij towary spe³niaj¹ce kryteria",DLG28_RB2,"Button",BS_AUTORADIOBUTTON,275,176,120,10
+    PUSHBUTTON      "Usuñ z listy",DLG28_B5,347,141,41,12
+END
+
+ID_DLG_30 DIALOGEX 100, 100, 233, 89
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Zapisanie numneru kasy w systemie"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Zapisz",DLG30_B1,126,51,35,14
+    PUSHBUTTON      "WyjdŸ",DLG30_B2,77,51,35,14
+    EDITTEXT        DLG30_E1,80,20,79,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Numer kasy",DLG30_T1,80,10,34,8
+END
+
+ID_DLG_31 DIALOGEX 100, 100, 393, 155
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Odczytanie konfiguracj kasy fiskalnej"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Zapisz",DLG31_B1,357,140,35,14
+    PUSHBUTTON      "WyjdŸ",DLG31_B2,372,0,21,11
+    CONTROL         "kasjer ma uprawnienia do wykonania raportu koñca zmiany",DLG31_CB1,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,16,175,10
+    CONTROL         "pierwsza linia dopisków po paragonie w³¹czona",DLG31_CB2,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,27,144,10
+    CONTROL         "drukowanie jednostek na paragonie w³¹czone ",DLG31_CB3,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,37,140,10
+    CONTROL         "druga linia dopisków po paragonie w³¹czona",DLG31_CB4,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,48,135,10
+    CONTROL         "dozwolona zmienna cena",DLG31_CB5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,59,83,10
+    CONTROL         "druga szuflada w³¹czona",DLG31_CB6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,70,81,10
+    CONTROL         "kasowaæ liczniki towarów po raporcie szczegó³owym\nsprzeda¿y i zwrotów opakowañ",DLG31_CB7,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,22,78,159,19
+    CONTROL         "obowi¹zek odczytu danych przez komputer przed now¹ zmian¹",DLG31_CB8,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,22,99,182,10
+    CONTROL         "sygnalizowaæ komunikacjê z komputerem za pomoc¹ \ndiody READY",DLG31_CB9,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,22,108,179,19
+    CONTROL         "obowi¹zek wprowadzenia kwoty\n wp³aconej przez klienta podczas zakoñczenia paragonu",DLG31_CB10,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,212,107,164,18
+    CONTROL         "pomijaæ wydruk danych na raporcie szczegó³owym sprzeda¿y i zwrotów opakowañ",DLG31_CB11,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,22,129,193,17
+    CONTROL         "niemo¿liwe dodatkowe otwieranie szuflady",DLG31_CB12,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,93,130,10
+    CONTROL         "wykonaj raport koñca zmiany kasjera w zestawie raportów",DLG31_CB13,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,16,175,10
+    CONTROL         "wykonaj raport sprzeda¿y wg grup w zestawie raportów",DLG31_CB14,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,27,167,10
+    CONTROL         "wykonaj raport szczegó³owy sprzeda¿y w zestawie raportów",DLG31_CB15,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,38,172,10
+    CONTROL         "wykonaj raport zwrotów opakowañ w zestawie raportów",DLG31_CB16,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,49,171,10
+    CONTROL         "wykonaj raport godzinowy w zestawie raportów",DLG31_CB17,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,60,146,10
+    CONTROL         "wykonaj raport fiskalny dobowy w zestawie raportów",DLG31_CB18,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,70,161,10
+    CONTROL         "wykonaj raport sumacyjny w zestawie raportów",DLG31_CB19,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,212,81,149,10
+END
+
+ID_DLG_32 DIALOGEX 100, 100, 274, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia jednostek miar z kas¹ fiskaln¹"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG32_LB1,11,19,96,70,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG32_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj jednostkê miary do listy",DLG32_B2,124,50,108,14
+    PUSHBUTTON      "Usuñ zaznaczon¹ jednostkê miary",DLG32_B3,124,70,108,14
+    EDITTEXT        DLG32_E1,125,29,62,14,ES_AUTOHSCROLL
+    LTEXT           "Nazwa jednostki miary",DLG32_T1,125,19,75,8
+    PUSHBUTTON      "Zapisz",DLG32_B4,246,115,27,14
+    EDITTEXT        DLG32_E2,199,29,44,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Indeks jednostki",DLG32_T2,199,19,49,8
+END
+
+ID_DLG_33 DIALOGEX 100, 100, 274, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia grup towarowych z kas¹ fiskaln¹"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG33_LB1,11,19,96,70,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG33_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj grupê do listy",DLG33_B2,124,50,108,14
+    PUSHBUTTON      "Usuñ zaznaczon¹ grupê",DLG33_B3,124,70,108,14
+    EDITTEXT        DLG33_E1,125,29,62,14,ES_AUTOHSCROLL
+    LTEXT           "Nazwa grupy towarowej",DLG33_T1,125,19,75,8
+    PUSHBUTTON      "Zapisz",DLG33_B4,246,115,27,14
+    EDITTEXT        DLG33_E2,199,29,44,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Indeks grupy",DLG33_T2,199,19,49,8
+END
+
+ID_DLG_34 DIALOGEX 100, 100, 274, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Odczytanie stawek vat z kasy fiskalnej"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG34_LB1,11,19,96,70,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG34_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj stawki do bazy danych",DLG34_B2,124,50,108,14
+END
+
+ID_DLG_35 DIALOGEX 100, 100, 274, 130
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Ustawienia form zap³aty z kas¹ fiskaln¹"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    LISTBOX         DLG35_LB1,11,19,96,70,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "WyjdŸ",DLG35_B1,246,1,27,14
+    PUSHBUTTON      "Dodaj formê zap³aty do listy",DLG35_B2,124,50,108,14
+    PUSHBUTTON      "Usuñ zaznaczon¹ formê zap³aty",DLG35_B3,124,70,108,14
+    EDITTEXT        DLG35_E1,125,29,62,14,ES_AUTOHSCROLL
+    LTEXT           "Nazwa formy zap³aty towarowej",DLG35_T1,125,19,75,8
+    PUSHBUTTON      "Zapisz",DLG35_B4,246,115,27,14
+    EDITTEXT        DLG35_E2,199,29,44,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Indeks formy zap³¹ty",DLG35_T2,199,19,49,8
+END
+
+ID_DLG_36 DIALOGEX 100, 100, 233, 89
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Odczytanie maksymalnego rabatu z kasy fiskalnej"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Zapisz",DLG36_B1,126,51,35,14
+    PUSHBUTTON      "WyjdŸ",DLG36_B2,77,51,35,14
+    EDITTEXT        DLG36_E1,80,20,79,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Maksymalny rabat (%)",DLG36_T1,80,10,70,8
+END
+
+ID_DLG_37 DIALOGEX 100, 100, 298, 118
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Odczytanie oktualnego raportu godzinowego z kasy fiskalnej"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Zamknij",DLG37_B1,263,0,35,14
+    CONTROL         "",DLG37_LV1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS,0,24,298,93,0x40000000L
+END
+
+ID_DLG_38 DIALOGEX 100, 100, 338, 175
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Odczytanie rodzajów kasjerów z kasy fiskalnej"
+FONT 12, "Times New Roman", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Zamknij",DLG38_B1,303,0,35,14
+    PUSHBUTTON      "Zapisz zmiany",DLG38_B2,293,161,44,14
+    LISTBOX         DLG38_LB1,1,0,108,175,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        DLG38_E1,116,128,101,12,ES_AUTOHSCROLL
+    EDITTEXT        DLG38_E2,116,155,60,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        DLG38_E3,189,155,62,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Nazwa kasjera",DLG38_T1,116,117,75,8
+    LTEXT           "Maksymalny rabat(%)",DLG38_T2,117,143,63,8
+    LTEXT           "Maksymalny narzut(%)",DLG38_T3,189,143,63,8
+    CONTROL         "koñca zmiany/stanu kasy",DLG38_CB1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,12,75,10
+    CONTROL         "sprzeda¿ wg. grup",DLG38_CB2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,21,74,10
+    CONTROL         "szczegó³owy sprzeda¿y",DLG38_CB3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,30,74,10
+    CONTROL         "zwrotów opakowañ",DLG38_CB4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,116,39,74,10
+    CONTROL         "godzinowy",DLG38_CB5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,194,12,81,10
+    CONTROL         "podatkowy/fiskalny dobowy",DLG38_CB6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,194,21,90,10
+    CONTROL         "sumacyjny okresowy I",DLG38_CB7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,194,30,80,10
+    CONTROL         "sprzedawców",DLG38_CB8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,194,39,82,10
+    GROUPBOX        "Raporty, które maj¹ byæ drukowane",DLG38_GB1,112,1,178,56
+    GROUPBOX        "Raporty, które maj¹ byæ zerowane",DLG38_GB2,112,58,178,56
+    CONTROL         "koñca zmiany/stanu kasy",DLG38_CB9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,69,75,10
+    CONTROL         "sprzeda¿ wg. grup",DLG38_CB10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,78,74,10
+    CONTROL         "szczegó³owy sprzeda¿y",DLG38_CB11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,87,74,10
+    CONTROL         "zwrotów opakowañ",DLG38_CB12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,117,96,74,10
+    CONTROL         "godzinowy",DLG38_CB13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,69,81,10
+    CONTROL         "podatkowy/fiskalny dobowy",DLG38_CB14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,78,90,10
+    CONTROL         "sumacyjny okresowy I",DLG38_CB15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,87,80,10
+    CONTROL         "sprzedawców",DLG38_CB16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,195,96,82,10
+    PUSHBUTTON      "Konfiguracja uprawnieñ",DLG38_B3,221,116,69,14
+END
+
+ID_DLG_39 DIALOGEX 10, 10, 453, 164
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Konfiguracja uprawnieñ kasjera"
+FONT 12, "Calibri", 0, 0, 0x1
+BEGIN
+    CONTROL         "sprzeda¿",DLG39_CB1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,10,52,8
+    CONTROL         "koniec zmiany kasjera",DLG39_CB2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,19,78,8
+    CONTROL         "stan kasy",DLG39_CB3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,29,52,8
+    CONTROL         "wp³ata do kasy",DLG39_CB4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,39,70,8
+    CONTROL         "wyp³ata z kasy",DLG39_CB5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,48,72,8
+    CONTROL         "zestaw raportów",DLG39_CB6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,57,68,8
+    CONTROL         "anulowanie pozycji",DLG39_CB7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,67,86,8
+    CONTROL         "anulowanie paragonów",DLG39_CB8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,77,90,8
+    CONTROL         "rabaty dowolne",DLG39_CB9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,10,89,8
+    CONTROL         "rabaty zdefiniowane",DLG39_CB10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,19,92,8
+    CONTROL         "narzuty dowolne",DLG39_CB11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,29,91,8
+    CONTROL         "narzuty zdefiniowane",DLG39_CB12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,39,95,8
+    CONTROL         "wprowadzenie karty rabatowej",DLG39_CB13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,48,96,8
+    CONTROL         "edycja karty rabatowej",DLG39_CB14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,57,96,8
+    CONTROL         "otwarcie szuflady",DLG39_CB15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,67,108,8
+    CONTROL         "dopuszczenie do funkcji",DLG39_CB16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,77,97,8
+    CONTROL         "menu kierownika",DLG39_CB17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,10,97,8
+    CONTROL         "menu serwisowe",DLG39_CB18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,19,103,8
+    CONTROL         "dobowy fiskalny",DLG39_CB19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,29,100,8
+    CONTROL         "finansowy podatkowy",DLG39_CB20,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,39,100,8
+    CONTROL         "sprzeda¿y zeruj¹cy",DLG39_CB21,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,48,101,8
+    CONTROL         "sprzeda¿y niezeruj¹cy",DLG39_CB22,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,57,102,8
+    CONTROL         "zwrotów opakowañ zeruj¹cy",DLG39_CB23,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,77,102,8
+    CONTROL         "zwrotów opakowañ niezeruj¹cy",DLG39_CB24,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,10,101,8
+    CONTROL         "sprzeda¿y wg grup zeruj¹cy",DLG39_CB25,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,19,104,8
+    CONTROL         "sprzeda¿y wg grup niezeruj¹cy",DLG39_CB26,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,29,109,8
+    CONTROL         "koniec zmiany dowolny",DLG39_CB27,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,39,100,8
+    CONTROL         "stan kasy dowolny",DLG39_CB28,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,48,101,8
+    CONTROL         "sumacyjny I zeruj¹cy",DLG39_CB29,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,57,104,8
+    CONTROL         "sumacyjny I niezeruj¹cy",DLG39_CB30,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,67,103,8
+    CONTROL         "sumacyjny II zeruj¹cy",DLG39_CB31,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,77,105,8
+    CONTROL         "sumacyjny II niezeruj¹cy",DLG39_CB32,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,87,105,8
+    CONTROL         "sprzedawców zeruj¹cy",DLG39_CB33,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,96,107,8
+    CONTROL         "sprzedawców niezeruj¹cy",DLG39_CB34,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,106,108,8
+    CONTROL         "raport godzinowy",DLG39_CB35,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,116,79,8
+    CONTROL         "raport godzinowy poprzedni",DLG39_CB36,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,125,112,8
+    CONTROL         "towarów nieu¿ywanych",DLG39_CB37,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,134,110,8
+    CONTROL         "towarów statycznych",DLG39_CB38,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,87,106,8
+    CONTROL         "raporty okresowe",DLG39_CB39,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,97,103,8
+    CONTROL         "raport miesiêczny poprzedni",DLG39_CB40,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,87,108,8
+    CONTROL         "miesiêczny bie¿¹cy",DLG39_CB41,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,96,109,8
+    CONTROL         "raport danych o towarach",DLG39_CB42,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,105,107,8
+    CONTROL         "raport konfiguracji",DLG39_CB43,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,115,99,8
+    CONTROL         "definiowanie towarów",DLG39_CB44,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,125,98,8
+    CONTROL         "zmiana cen",DLG39_CB45,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,121,134,98,8
+    CONTROL         "wybór sprzedawcy",DLG39_CB46,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,107,98,8
+    CONTROL         "nazwy i kursy walut",DLG39_CB47,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,117,100,8
+    CONTROL         "zmiana waluty ewidencyjnej",DLG39_CB48,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,87,103,8
+    CONTROL         "konfiguracja",DLG39_CB49,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,96,103,8
+    CONTROL         "wyœwietl sprzeda¿",DLG39_CB50,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,106,102,8
+    CONTROL         "ustawienia",DLG39_CB51,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,116,101,8
+    CONTROL         "kasjerzy",DLG39_CB52,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,125,103,8
+    CONTROL         "rodzaje kasjerów",DLG39_CB53,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,134,104,8
+    CONTROL         "przestawienie zegara",DLG39_CB54,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,126,104,8
+    CONTROL         "stawki podatku",DLG39_CB55,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,232,67,102,8
+    CONTROL         "ustawienia sprzêtowe",DLG39_CB56,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,337,136,104,8
+    PUSHBUTTON      "Zamknij",DLG39_B1,153,148,50,14
+    PUSHBUTTON      "Zapisz zmiany",DLG39_B2,250,148,50,14
+END
+
+ID_DLG_40 DIALOGEX 10, 10, 366, 126
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Konfiguracja danych o kasjera"
+FONT 12, "Calibri", 0, 0, 0x1
+BEGIN
+    EDITTEXT        DLG40_E1,127,19,121,12,ES_AUTOHSCROLL
+    LTEXT           "Nazwa kasjera",DLG40_T1,128,7,71,8
+    EDITTEXT        DLG40_E2,264,19,60,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Has³o kasjera",DLG40_T2,265,7,71,8
+    COMBOBOX        DLG40_E3,127,51,121,130,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Rodzaj kasjera",DLG40_T3,128,39,50,8
+    CONTROL         "Zmiana kasjera otwarta",DLG40_CB1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,127,67,98,10
+    PUSHBUTTON      "Anuluj",DLG40_B1,202,111,50,14
+    PUSHBUTTON      "Zapisz zmiany",DLG40_B2,282,111,50,14
+    LISTBOX         DLG40_LB1,0,0,119,126,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Usuñ zaznaczonego kasjera z listy",DLG40_B3,129,82,115,14
+    PUSHBUTTON      "Dodaj nowego kasjera",DLG40_B4,252,82,80,14
+    EDITTEXT        DLG40_E4,264,49,60,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "Numer kasjera",DLG40_T4,265,37,71,8
+END
+
+ID_DLG_41 DIALOGEX 10, 10, 272, 115
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Konfiguracja danych o kasjera"
+FONT 12, "Calibri", 0, 0, 0x1
+BEGIN
+    EDITTEXT        DLG41_E1,10,18,100,12,ES_AUTOHSCROLL
+    LTEXT           "Nazwa kasjera",DLG41_T1,11,6,71,8
+    EDITTEXT        DLG41_E2,138,18,100,12,ES_AUTOHSCROLL
+    LTEXT           "Has³o kasjera",DLG41_T2,139,6,71,8
+    LTEXT           "Rodzaj kasjera",DLG41_T3,11,38,50,8
+    CONTROL         "Zmiana kasjera otwarta",DLG41_CB1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,11,66,98,10
+    PUSHBUTTON      "Anuluj",DLG41_B1,70,87,50,14
+    PUSHBUTTON      "Dodaj",DLG41_B2,150,87,50,14
+    COMBOBOX        DLG41_E3,11,50,112,130,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        DLG41_E4,138,49,68,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Numer kasjera",DLG41_T4,139,37,71,8
+END
+
+ID_DLG_42 DIALOGEX 10, 10, 367, 176
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Usuwanie danych o kasjera"
+FONT 12, "Calibri", 0, 0, 0x1
+BEGIN
+    EDITTEXT        DLG42_E1,246,15,100,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Nazwa kasjera",DLG42_T1,247,3,71,8
+    EDITTEXT        DLG42_E2,247,75,100,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Has³o kasjera",DLG42_T2,248,63,71,8
+    LTEXT           "Rodzaj kasjera",DLG42_T3,249,35,50,8
+    CONTROL         "Zmiana kasjera otwarta",DLG42_CB1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,248,122,98,10
+    PUSHBUTTON      "Anuluj",DLG42_B1,96,155,50,14
+    PUSHBUTTON      "Usuñ wybranych kasjerów z kasy fiskalnej",DLG42_B2,187,155,142,14
+    EDITTEXT        DLG42_E4,247,106,68,12,ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "Numer kasjera",DLG42_T4,248,94,71,8
+    PUSHBUTTON      ">>",DLG42_B3,112,42,18,14
+    LISTBOX         DLG42_LB1,0,0,110,113,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         DLG42_LB2,133,0,110,113,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        DLG42_E3,247,46,100,12,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Usuñ kasjera z listy",DLG42_B4,135,119,83,14
+END
+
+ID_DLG_43 DIALOGEX 10, 10, 377, 196
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Startystyka sprzeda¿y"
+FONT 12, "Calibri", 0, 0, 0x1
+BEGIN
+    EDITTEXT        DLG43_E1,31,156,34,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Miesi¹c",DLG43_T1,32,144,31,10
+    EDITTEXT        DLG43_E2,71,156,35,12,ES_AUTOHSCROLL | ES_NUMBER
+    LISTBOX         DLG43_LB1,7,79,118,58,LBS_HASSTRINGS | LBS_DISABLENOSCROLL | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    LISTBOX         DLG43_LB2,248,79,119,58,LBS_HASSTRINGS | LBS_DISABLENOSCROLL | LBS_NOSEL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Rok",DLG43_T2,72,144,20,9
+    LTEXT           "-",DLG43_T3,110,157,8,9
+    EDITTEXT        DLG43_E3,119,156,34,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Miesi¹c",DLG43_T4,120,144,31,10
+    EDITTEXT        DLG43_E4,159,156,35,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Rok",DLG43_T5,160,144,20,9
+    CONTROL         "",DLG43_LV1,"SysListView32",LVS_REPORT | LVS_SHOWSELALWAYS | LVS_ALIGNLEFT | WS_TABSTOP,3,6,373,59
+    LTEXT           "Sprzeda¿ wed³ug stawek vat",DLG43_T6,10,68,107,10
+    LTEXT           "Przyjêcie towaru wed³ug stawek vat",DLG43_T7,249,68,117,10
+    PUSHBUTTON      "Szukaj",DLG43_B1,31,177,50,14
+    PUSHBUTTON      "Zamknij",DLG43_B2,303,177,50,14
+    EDITTEXT        DLG43_E5,130,91,67,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Kwota sprzeda¿y",DLG43_T8,131,79,69,10
+    EDITTEXT        DLG43_E6,156,123,68,12,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Kwota przyjêcia towaru",DLG43_T9,156,112,89,9
+END
+
+ID_DLG_44 DIALOGEX 100, 100, 260, 116
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Drukuj Towary"
+FONT 12, "Times New Roman", 700, 0, 0xEE
+BEGIN
+    COMBOBOX        DLG44_CB1,10,11,228,75,CBS_DROPDOWN | CBS_AUTOHSCROLL | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    GROUPBOX        "Drukarka",DLG44_GB1,5,2,239,33
+    PUSHBUTTON      "Drukuj",DLG44_B1,7,42,30,14
+    PUSHBUTTON      "Anuluj",DLG44_B2,50,42,30,14
+    GROUPBOX        "Opcje wydruku",DLG44_GB2,141,44,115,55
+    RADIOBUTTON     "Jednostrony",DLG44_RB1,149,57,52,10
+    RADIOBUTTON     "Dwustr. (wed³. d³ug. krawêdzi)",DLG44_RB2,149,70,104,10
+    RADIOBUTTON     "Dwustr. (wed³. krót. krawêdzi)",DLG44_RB3,149,84,104,10
+    CONTROL         "Wydruk listy dla urzêdu (drukuje tylko podstawowe informacje o stanach i cenach zakupu",DLG44_CB2,
+                    "Button",BS_AUTOCHECKBOX | BS_MULTILINE | WS_TABSTOP,3,63,133,33
+END
+
+ID_DLG_45 DIALOGEX 100, 100, 360, 108
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Wartoœæ Towarów"
+FONT 12, "Times New Roman", 700, 0, 0xEE
+BEGIN
+    CONTROL         "",DLG45_LV1,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,21,346,54
+    PUSHBUTTON      "Zamknij",DLG45_B1,333,0,27,14
+END
+
+ID_DLG_46 DIALOGEX 100, 100, 216, 69
+STYLE DS_SETFONT | DS_MODALFRAME | WS_CAPTION
+CAPTION "Numer faktury"
+FONT 12, "Times New Roman", 700, 0, 0xEE
+BEGIN
+    PUSHBUTTON      "Anuluj",DLG46_B2,52,45,50,14
+    PUSHBUTTON      "OK",DLG46_B1,118,45,50,14
+    EDITTEXT        DLG46_E1,63,19,95,14,ES_AUTOHSCROLL|ES_NUMBER
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    DLG_ERR, DIALOG
+    BEGIN
+    END
+
+    DLG_I, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 99
+    END
+
+    DLG_Q, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_14, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_15, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_13, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_12, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 544
+    END
+
+    ID_DLG_2, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_3, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_4, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 220
+    END
+
+    ID_DLG_7, DIALOG
+    BEGIN
+        RIGHTMARGIN, 221
+    END
+
+    ID_DLG_6, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_8, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_9, DIALOG
+    BEGIN
+        RIGHTMARGIN, 323
+    END
+
+    ID_DLG_10, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_11, DIALOG
+    BEGIN
+        RIGHTMARGIN, 348
+        BOTTOMMARGIN, 114
+    END
+
+    ID_DLG_16, DIALOG
+    BEGIN
+        RIGHTMARGIN, 216
+    END
+
+    ID_DLG_17, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_19, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_29, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_20, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_21, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_22, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_23, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_24, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 209
+    END
+
+    ID_DLG_25, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_26, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_27, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_28, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_30, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_31, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_32, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_37, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_38, DIALOG
+    BEGIN
+        LEFTMARGIN, 1
+    END
+
+    ID_DLG_39, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_40, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 115
+    END
+
+    ID_DLG_41, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_42, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_43, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_44, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_45, DIALOG
+    BEGIN
+    END
+
+    ID_DLG_46, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    ERR1                    "brak nazwy pliku wejœciowego"
+    ERR2                    "zastrze¿ona nazwa pliku wejœciowego"
+    ERR3                    "brak nazwy pliku wyjœciowego"
+    ERR4                    "zastrze¿ona nazwa pliku wyjœciowego"
+    ERR5                    "jednakowe nazwy plików wejœciowego i wyjœciowego"
+    ERR6                    "nie mo¿na otworzyæ pliku wejœciowego"
+    ERR7                    "nie mo¿na otworzyæ pliku konfiguracji"
+END
+
+STRINGTABLE
+BEGIN
+    ERR8                    "nie mo¿na otworzyæ pliku wyjœciowego"
+    ERR9                    "nie mo¿na otworzyæ pliku raportu"
+    ERR10                   "niekompletne dane w pliku wejœciowym"
+    ERR11                   "niepoprawny format pliku wejœciowego"
+    ERR12                   "niepoprawne dane w pliku wejœciowym"
+    ERR13                   "niekompletne dane w pliku konfiguracji"
+    ERR14                   "brak skojarzenia w pliku konfiguracji"
+    ERR15                   "niepoprawne dane w pliku konfiguracji"
+    ERR16                   "niepoprawny format pliku konfiguracji"
+    ERR17                   "nie mo¿na pisaæ do pliku wyjœciowego"
+    ERR18                   "nie mo¿na pisaæ do pliku raportu"
+    ERR19                   "numer kasy poza zakresem"
+    ERR20                   "timeout nadawania"
+    ERR21                   "timeout "
+    ERR22                   "pod podanym skojarzeniem kasa o innym numerze"
+    ERR23                   "niepoprawna odpowiedŸ z kasy"
+END
+
+STRINGTABLE
+BEGIN
+    ERR24                   "kasa odpowiedzia³a NAK na sekwencje steruj¹c¹"
+    ERR25                   "rozkaz niedostêpny w tej wersji programu kasy"
+    ERR26                   "nie w³¹czona opcja 'serwis z PC'"
+    ERR27                   "nie mo¿na otworzyæ pliku konfiguracji modemu"
+    ERR28                   "niepoprawny format pliku konfiguracji modemu"
+    ERR29                   "ci¹gle zestawione po³¹czenie miedzy modemami"
+    ERR30                   "brak po³¹czenia miedzy modemami"
+    ERR31                   "timeout obs³ugi sekwencji AT"
+    ERR32                   "timeout nadawania do modemu/Elpack"
+    ERR33                   "timeout odbierania z modemu/Elpack"
+    ERR34                   "b³¹d sumy CRC w ramce z modemu kasowego/Elpack"
+    ERR35                   "b³¹d sumy CRC w ramce do modemu kasowego/Elpack"
+    ERR36                   "b³¹d rozkazu dla modemu kasowego/Elpack"
+    ERR37                   "b³¹d ochrony pamiêci konfiguracji modemu kasowego/Elpack"
+    ERR38                   "b³¹d w pamiêci konfiguracji modemu kasowego/Elpack"
+    ERR39                   "Brak autoryzacji dla modemu kasowego/Elpack"
+END
+
+STRINGTABLE
+BEGIN
+    ERR40                   "niezdefiniowany timeout nadawania w modemie kasowym/Elpack"
+    ERR41                   "niezdefiniowany timeout odbierania w modemie kasowym/Elpack"
+    ERR42                   "b³¹d parzystoœci miedzy kas¹ i modemem kasowym/Elpack"
+    ERR43                   "modem kasowy/Elpack zg³osi³ b³¹d spoza dopuszczalnego zakresu"
+    ERR44                   "nie mo¿na odblokowaæ transmisji w Windows"
+    ERR45                   "kontroler modemu/Elpack nie obs³uguje poprawnie drugiej odpowiedzi"
+    ERR46                   "niezgodna suma kontrolna"
+    ERR47                   "awaria drukarki"
+    ERR48                   "brak papieru"
+    ERR49                   "nadpisanie bajtu odebranego przez komputer (overrun)"
+    ERR50                   "³¹d parzystoœci bajtu odebranego przez komputer (parity error)"
+    ERR51                   "b³¹d ramki bajtu odebranego przez komputer (framing error)"
+    ERR52                   "nie mo¿na prze³¹czyæ kana³u multipleksera"
+    ERR53                   "dane nie mieszcz¹ siê w pojedynczej ramce"
+    ERR54                   "b³¹d serwera kasowego - strona serwera"
+    ERR55                   "b³¹d serwera kasowego - strona klienta"
+END
+
+STRINGTABLE
+BEGIN
+    ERR56                   "zakoñczono dzia³anie na ¿¹danie serwera kasowego"
+    ERR57                   "nie mo¿na wykonaæ funkcji specjalnej dla kasy Teta"
+    ERR58                   "uszkodzony obszar pamiêci fiskalnej przeznaczony na rekordy fiskalne"
+    ERR59                   "nie mo¿na otworzyæ pliku buforuj¹cego typy kas"
+    ERR60                   "niepoprawny format pliku buforuj¹cego typy kas"
+    ERR61                   "niemo¿liwy zapis do pliku buforuj¹cego typy kas"
+    ERR62                   "nie mo¿na otworzyæ portu szeregowego.\n Jeœli kasa pod³¹czona jest przez kabel USB, nale¿y pod³¹czyæ j¹ do tego samego portu, do którego by³a pod³¹czona podczas konfiguracji. Lub mo¿na zmieniæ w ustawieniach numer portu COM"
+    ERR63                   "timeout nadawania dla operacji TCP/IP"
+    ERR64                   "timeout odbierania dla operacji TCP/IP"
+    ERR65                   "inny b³¹d dla operacji TCP/IP"
+    ERR66                   "odpowiedz o zmiennej d³ugoœci niezgodna z deklaracj¹"
+    ERR67                   "niepoprawna nazwa hosta lub niedostêpny serwer DNS"
+    ERR68                   "b³¹d rozkazu interfejsu sieciowego"
+    ERR69                   "operacja niemo¿liwa w trybie szkoleniowym (wymagany tryb fiskalny)"
+    ERR70                   "niepoprawny zakres raportów"
+    ERR71                   "brak raportów w podanym zakresie"
+END
+
+STRINGTABLE
+BEGIN
+    ERR72                   "operacja niemo¿liwa dla niezakoñczonego miesi¹ca"
+    ERR73                   "operacja niemo¿liwa w trybie ZAPIS/ODCZYT (wymagany tryb TYLKO ODCZYT)"
+    ERR74                   "operacja niemo¿liwa poniewa¿ inny wydruk jest w toku"
+    ERR75                   "operacja niemo¿liwa poniewa¿ zwora serwisowa jest w pozycji serwisowej"
+    ERR76                   "podano niew³aœciw¹ datê lub has³o"
+    ERR77                   "inny b³¹d dla raportów okresowych"
+END
+
+STRINGTABLE
+BEGIN
+    ERR101                  "niemo¿liwe do wykonania poniewa¿ pamiêæ CMOS zosta³a skasowana (wezwij serwis)"
+    ERR102                  "b³¹d w nazwie towaru"
+    ERR103                  "b³¹d w stawce podatkowej towaru"
+END
+
+STRINGTABLE
+BEGIN
+    ERR104                  "brak miejsca na opakowanie (max. 64 opakowañ)"
+    ERR105                  "b³êdny numer towaru"
+    ERR107                  "brak miejsca w buforze na towary wi¹zane (max. 256 wi¹zañ)"
+    ERR108                  "za du¿y kod kreskowy"
+    ERR109                  "za du¿a cena"
+    ERR110                  "numer grupy towarowej poza dozwolonym zakresem"
+    ERR111                  "numer jednostki poza dozwolonym zakresem"
+    ERR112                  "b³êdna iloœæ miejsc po przecinku"
+    ERR113                  "b³¹d w informacji o blokadzie towaru (nie 0 lub 1)"
+    ERR114                  "b³¹d w informacji o opakowaniu (nie 0 lub 1)"
+    ERR115                  "numer p³atnoœci poza dozwolonym zakresem"
+    ERR116                  "numer pozycji karty rabatowej poza zakresem"
+    ERR117                  "brak miejsca na kartê rabatow¹"
+    ERR118                  "dane karty na pozycji s¹ inne ni¿ podane"
+END
+
+STRINGTABLE
+BEGIN
+    ERR1120                 "powtórzony kod kreskowy"
+    ERR1121                 "trwa kasowanie wszystkich dodatkowych kodów kreskowych"
+END
+
+STRINGTABLE
+BEGIN
+    ERR200                  "pod podanym numerem towaru jest nowa nazwa lub stawka"
+    ERR201                  "niemo¿liwe do wykonania poniewa¿ nie wszystkie dane zosta³y przeczytane"
+    ERR202                  "pod podanym numerem towaru brak danych"
+    ERR203                  "numer kasjera poza dozwolonym zakresem"
+    ERR204                  "pod podanym numerem kasjera brak danych"
+    ERR205                  "kasjer do skasowania ma otwart¹ zmianê"
+    ERR206                  "w ci¹gu który ma byæ znakami tekstu jest kod mniejszy od 20H"
+    ERR207                  "rabat albo narzut zbyt du¿y"
+    ERR208                  "parametr N poza dozwolonym zakresem"
+    ERR209                  "towar do skasowania lub zast¹pienia ma niezerowa sprzeda¿ lub zwroty je¿eli jest opakowaniem"
+    ERR210                  "liczba wierszy do wysuniêcia poza dozwolonym zakresem"
+    ERR211                  "brak miejsca na barkod"
+    ERR212                  "kasjer pracuje"
+    ERR213                  "otwarty paragon"
+    ERR215                  "numer pojemnika poza dozwolonym zakresem"
+END
+
+STRINGTABLE
+BEGIN
+    ERR217                  "waga pojemnika poza dozwolonym zakresem"
+    ERR220                  "w nazwie towaru wystêpuj¹ same spacje lub znaki niewa¿ne"
+    ERR221                  "numer PLU zajêty przez inny towar"
+    ERR222                  "wprowadzana nazwa istnieje ju¿ w bazie"
+    ERR223                  "niezerowy licznik paragonów"
+    ERR224                  "towar oznaczony jako nowo zdefiniowany"
+    ERR225                  "towar oznaczony jako skasowany"
+    ERR226                  "towar ma ju¿ raz zmienion¹ stawkê"
+    ERR227                  "zwora serwisowa w pozycji normalnej"
+    ERR228                  "klawisz nie mo¿e byæ definiowany i odczytywany"
+    ERR229                  "brak miejsca na kwoty dla p³atnoœci z klawisza"
+    ERR230                  "wartoœæ wprowadzanej kwoty ograniczenia jest wiêksza ni¿ maksymalna dopuszczalna"
+    ERR231                  "doba jest otwarta"
+END
+
+STRINGTABLE
+BEGIN
+    ERR232                  "towar do zmiany lub skasowania jest u¿yty w bie¿¹cym paragonie"
+    ERR234                  "b³¹d rozszerzony"
+    ERR235                  "b³¹d %s ramki protoko³u ElzabSTX"
+    ERR236                  "b³¹d nr %s sekcji dane protoko³u ElzabSTX"
+    ERR237                  "b³¹d nr %s operacji na pliku tymczasowym"
+    ERR238                  "operacja niedostêpna w protokole ElzabSTX"
+    ERR239                  "wymagany protokó³ ElzabSTX"
+    ERR240                  "b³¹d autoryzacji"
+    ERR241                  "paragon zosta³ uniewa¿niony (przyczyna uniewa¿nienia %s)"
+    ERR242                  "b³¹d nr %s operacji na pliku statusu SDBackup"
+END
+
+STRINGTABLE
+BEGIN
+    ERR6C01                 "numer wiadomoœci zerowy lub za wysoki"
+    ERR6C02                 "brak wiadomoœci o takim numerze"
+    ERR6C03                 "wiadomoœci zosta³y zmienione lub usuniête od czasu rozpoczêcia operacji"
+    ERR6C04                 "b³êdna kolejnoœæ operacji dla wiadomoœci kasjera"
+    ERR6C05                 "brak miejsca na nowa wiadomoœæ"
+    ERR6C06                 "numer kasjera w wiadomoœci poza dozwolonym zakresem"
+    ERR6C07                 "b³¹d w dacie lub czasie wa¿noœci wiadomoœci"
+    ERR6C08                 "b³¹d w statusie wiadomoœci"
+    ERR6C09                 "w tekœcie wiadomoœci jest znak mniejszy od 20h"
+    ERR6C0A                 "nie ma wiadomoœci o takiej treœci do skasowania"
+    ERR6C0B                 "wiadomoœæ nie zosta³a zapisana poniewa¿ system wiadomoœci kasjerskich jest wy³¹czony"
+    ERR6C0C                 "nie mo¿na skasowaæ wiadomoœci poniewa¿ trwa odczyt przez kasjera"
+END
+
+STRINGTABLE
+BEGIN
+    ERR6D01                 "b³êdna wartoœæ indeksu X"
+    ERR6D02                 "b³êdna zawartoœæ TYP"
+    ERR6D03                 "b³êdna zawartoœæ ZAKRES"
+    ERR6D04                 "b³êdna zawartoœæ RN"
+    ERR6D05                 "b³êdna zawartoœæ PK"
+    ERR6D06                 "b³êdna zawartoœæ PW"
+    ERR6D07                 "b³êdna zawartoœæ PG"
+    ERR6D08                 "b³êdna zawartoœæ PR"
+    ERR6D09                 "b³êdna zawartoœæ CZAS"
+    ERR6D0A                 "b³êdna zawartoœæ NAZWA "
+    ERR6D0B                 "rabat/narzut na paragon dla ka¿dego towaru jest ju¿ zdefiniowany"
+    ERR6D0C                 "rabat/narzut na paragon dla tej grupy ju¿ zdefiniowano, lub dla tego PLU zdefiniowano ju¿ promocje"
+    ERR6D0D                 "dla promocji je¿eli progi s¹ iloœciowe to tylko dopuszczalne s¹ tylko rabaty procentowe"
+    ERR6D0E                 "b³êdne dane daty lub czasu obowi¹zywania"
+END
+
+#endif    // Polish (Poland) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

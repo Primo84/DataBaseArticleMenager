@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DBAMng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DBAM_F.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="help_fun.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Checkbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="winProc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBAMng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikony\ServerProject.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\Q.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\D.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\Do.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\U.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\Ed.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\FW.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\Z.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\PT.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\FZ.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\add.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\conf.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\error.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\ok.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\cancel.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\query.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\msg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\root.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\rap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\k_cfg.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\sale.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kas.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\spr_cen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\czyt_wsz_tow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\zap_full.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\zap_part.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\t_rd.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\t_wr.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\t_del.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\czyt_wiaz.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\zap_wiaz.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kas_wiaz.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kas_w_tow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\naj_num_tow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\il_tow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\dr_rap_zm.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\dr_rap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\num.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\num1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\get_b.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\set_b.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\jedn_o.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\jedn_z.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\gr_o.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\gr_z.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\del_gr.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\del_all_gr.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\fr_pl_o.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\fr_pl_z.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\rab_o.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\rab_z.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\narz_o.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\narz_z.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\sal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\clock_a.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\clock_p.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\vat.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kasjer1.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kasjer2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kasjer3.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kasjer4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\kasjer5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\r_per.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\wr_per.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\r_kas.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\wr_kas.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\wal.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\form_zap.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\num_vat.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\jm.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\search.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\def_kas.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\grupa.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\stat.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\print_mag.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ikony\tow_wart.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
