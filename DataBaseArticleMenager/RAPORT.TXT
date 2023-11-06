@@ -1,0 +1,11 @@
+#1	COM4:57600:MUX0:1	5	2017.06.03	13:31	Paker	WIN 10.21.2016	Config/sprz.txt	Config/naz.txt
+#0	; akcja zakonczona sukcesem
+#AnyString (identyfikator z pliku KONFIG.TXT)
+$0
+$0
+$2
+$5
+$5
+$00000	00000
+$5	0	$0920	20.000	800
+$0000

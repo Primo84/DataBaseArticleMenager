@@ -1,0 +1,2 @@
+Projekt bazy danych oraz aplikacji do zarządzania w sklepie. Współpracuje z kasami fiskalnymi. Posiada wiele przydatnych
+funkcji. Możliwość fakturowania i drukowania faktur. Prowadzi także statystykę sprzedazy.

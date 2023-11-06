@@ -1,0 +1,36 @@
+;Configuration file for modems: PROLINK, ActionTec, GVC400
+;
+;load factory default configuration
+$AT&F0
+;set country code = Poland
+$AT+GCI=8A
+;set no auto answer
+$ATS0=0
+;set escape character guard time 
+$ATS12=0
+;set volume speaker level
+$ATL1
+;set automatic rate negotiation
+$ATN1
+;set speaker on until carrier detected
+$ATM1
+;result message all responses + dial tone + busy signal detection
+$ATX4
+;set V.42 data link
+$AT&Q5
+;force CTS on
+$AT&R1
+;set DSR always on
+$AT&S0
+;result codes enable
+$ATQ0
+;command echo enable
+$ATE1
+;set text responses
+$ATV1
+;enable RTS/CTS hardware flow control
+$AT&K3
+;DTR signal ignored
+$AT&D0
+;turn on Carrier Detect (CD) when remote carrier is present
+$AT&C1

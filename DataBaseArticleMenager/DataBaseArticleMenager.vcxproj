@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{48E1B519-7114-45CA-94F3-80FCA7BCFA04}</ProjectGuid>
+    <RootNamespace>DataBaseArticleMenager</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <EnableManagedIncrementalBuild>false</EnableManagedIncrementalBuild>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <ResourceCompile>
+      <Culture>0x0415</Culture>
+    </ResourceCompile>
+    <ResourceCompile>
+      <ShowProgress>false</ShowProgress>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Checkbox.h" />
+    <ClInclude Include="DBAMng.h" />
+    <ClInclude Include="DBAM_F.h" />
+    <ClInclude Include="help_fun.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="winProc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DBAMng.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Res.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ikony\add.bmp" />
+    <None Include="ikony\cancel.bmp" />
+    <None Include="ikony\clock_a.bmp" />
+    <None Include="ikony\clock_p.bmp" />
+    <None Include="ikony\conf.bmp" />
+    <None Include="ikony\czyt_wiaz.bmp" />
+    <None Include="ikony\czyt_wsz_tow.bmp" />
+    <None Include="ikony\D.bmp" />
+    <None Include="ikony\def_kas.bmp" />
+    <None Include="ikony\del_all_gr.bmp" />
+    <None Include="ikony\del_gr.bmp" />
+    <None Include="ikony\Do.bmp" />
+    <None Include="ikony\dr_rap.bmp" />
+    <None Include="ikony\dr_rap_zm.bmp" />
+    <None Include="ikony\Ed.bmp" />
+    <None Include="ikony\error.bmp" />
+    <None Include="ikony\form_zap.bmp" />
+    <None Include="ikony\fr_pl_o.bmp" />
+    <None Include="ikony\fr_pl_z.bmp" />
+    <None Include="ikony\FW.bmp" />
+    <None Include="ikony\FZ.bmp" />
+    <None Include="ikony\get_b.bmp" />
+    <None Include="ikony\grupa.bmp" />
+    <None Include="ikony\gr_o.bmp" />
+    <None Include="ikony\gr_z.bmp" />
+    <None Include="ikony\il_tow.bmp" />
+    <None Include="ikony\jedn_o.bmp" />
+    <None Include="ikony\jedn_z.bmp" />
+    <None Include="ikony\jm.bmp" />
+    <None Include="ikony\kas.bmp" />
+    <None Include="ikony\kasjer1.bmp" />
+    <None Include="ikony\kasjer2.bmp" />
+    <None Include="ikony\kasjer3.bmp" />
+    <None Include="ikony\kasjer4.bmp" />
+    <None Include="ikony\kasjer5.bmp" />
+    <None Include="ikony\kas_wiaz.bmp" />
+    <None Include="ikony\kas_w_tow.bmp" />
+    <None Include="ikony\k_cfg.bmp" />
+    <None Include="ikony\msg.bmp" />
+    <None Include="ikony\naj_num_tow.bmp" />
+    <None Include="ikony\narz_o.bmp" />
+    <None Include="ikony\narz_z.bmp" />
+    <None Include="ikony\num.bmp" />
+    <None Include="ikony\num1.bmp" />
+    <None Include="ikony\num_vat.bmp" />
+    <None Include="ikony\ok.bmp" />
+    <None Include="ikony\print_mag.bmp" />
+    <None Include="ikony\PT.bmp" />
+    <None Include="ikony\Q.bmp" />
+    <None Include="ikony\query.bmp" />
+    <None Include="ikony\rab_o.bmp" />
+    <None Include="ikony\rab_z.bmp" />
+    <None Include="ikony\rap.bmp" />
+    <None Include="ikony\root.bmp" />
+    <None Include="ikony\r_kas.bmp" />
+    <None Include="ikony\r_per.bmp" />
+    <None Include="ikony\sal.bmp" />
+    <None Include="ikony\sale.bmp" />
+    <None Include="ikony\search.bmp" />
+    <None Include="ikony\ServerProject.ico" />
+    <None Include="ikony\set_b.bmp" />
+    <None Include="ikony\spr_cen.bmp" />
+    <None Include="ikony\stat.bmp" />
+    <None Include="ikony\tow_wart.bmp" />
+    <None Include="ikony\t_del.bmp" />
+    <None Include="ikony\t_rd.bmp" />
+    <None Include="ikony\t_wr.bmp" />
+    <None Include="ikony\U.bmp" />
+    <None Include="ikony\vat.bmp" />
+    <None Include="ikony\wal.bmp" />
+    <None Include="ikony\wr_kas.bmp" />
+    <None Include="ikony\wr_per.bmp" />
+    <None Include="ikony\Z.bmp" />
+    <None Include="ikony\zap_full.bmp" />
+    <None Include="ikony\zap_part.bmp" />
+    <None Include="ikony\zap_wiaz.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
